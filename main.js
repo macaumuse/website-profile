@@ -57,8 +57,6 @@
                     <span class="text-gray-400">|</span>
                     <a href="team.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.team">Team (We Are Hiring)</a>
                     <span class="text-gray-400">|</span>
-                    <a href="https://cloud.umami.is/share/02nKZkui0S6JgesC/wangzigan.com" target="_blank" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.analytics">Analytics</a>
-                    <span class="text-gray-400">|</span>
                     <select id="langSelect" aria-label="Language selection" class="px-2 py-1 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-blue-400 focus:border-transparent">
                         ${Object.entries(languages).map(([code, name]) => `<option value="${code}">${name}</option>`).join('')}
                     </select>
