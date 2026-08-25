@@ -50,8 +50,10 @@
                     <a href="index.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.home">Home</a>
                     <span class="text-gray-400">|</span>
                     <a href="pub.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.publications">Publications</a>
+                    <!-- Research link hidden per request; restore by uncommenting the two lines below
                     <span class="text-gray-400">|</span>
                     <a href="/research/assetbubble" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.research">Research</a>
+                    -->
                     <span class="text-gray-400">|</span>
                     <a href="slides.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.slides">Slides</a>
                     <span class="text-gray-400">|</span>

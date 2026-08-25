@@ -1,0 +1,223 @@
+{
+    "title": "Außerordentlicher Professor an der Tsinghua-Universität",
+    "nav": {
+        "home": "Startseite",
+        "publications": "Publikationen",
+        "research": "Forschung",
+        "slides": "Vortragsfolien",
+        "team": "Team (Wir stellen ein)"
+    },
+    "sections": {
+        "research": "Forschungsinteressen",
+        "employment": "Beruflicher Werdegang",
+        "education": "Ausbildung",
+        "grants": "Eingeworbene Forschungsmittel und Stipendien",
+        "service": "Akademisches Engagement",
+        "certificates": "Zertifikate",
+        "affiliations": "Berufsverbände und Mitgliedschaften",
+        "awards": "Akademische Auszeichnungen und Preise",
+        "uniservice": "Dienste an der Universität",
+        "teaching": "Lehrerfahrung",
+        "placement": "Berufsweg der betreuten Doktoranden",
+        "ras": "Berufsweg ehemaliger Forschungsassistenten",
+        "author_identifiers": "Autor-Identifikatoren",
+        "book": "Buchkapitel",
+        "working": "Arbeitspapiere in Überarbeitung",
+        "current_interests": "Aktuelle Forschungsinteressen",
+        "pub_econ": "Begutachtete Publikationen in wirtschafts- und finanzwissenschaftlichen Fachzeitschriften",
+        "pub_cs": "Begutachtete Publikationen auf Informatik-Konferenzen",
+        "other_working": "Weitere Arbeitspapiere",
+        "slides": "Vortragsfolien"
+    },
+    "slides": {
+        "loading": "Folien werden geladen..."
+    },
+    "research": {
+        "interests": "Forschungsinteressen:",
+        "fields": "Angewandte Mikroökonomie, internationale Wirtschaft, Umweltökonomie, politische und Rechtsökonomie, ökonomische Netzwerke, Ökonometrie, Computer Vision, Wissensgraphen, GANs."
+    },
+    "employment": {
+        "tsinghua": {
+            "title": "Außerordentlicher Professor (mit Tenure), 2023 – heute",
+            "school1": "Shenzhen International Graduate School, Tsinghua-Universität",
+            "school2": "School of Economics and Management, Tsinghua-Universität (Doppelberufung)"
+        },
+        "uq": {
+            "title": "Ehrenamtlicher außerordentlicher Professor für Volkswirtschaftslehre, 2023–2026",
+            "school": "University of Queensland"
+        },
+        "hku": {
+            "title": "Assistant Professor, 2015–2023",
+            "school": "HKU Business School, Universität Hongkong"
+        },
+        "suny": {
+            "title": "Gastprofessor (während der Promotion), 2014",
+            "school": "State University of New York"
+        }
+    },
+    "education": {
+        "phd": {
+            "title": "Promotion (Ph.D.) in Volkswirtschaftslehre, 2015, Columbia University, New York | Schwerpunkt: Finanzen",
+            "committee": "Dissertationskomitee: Patrick Bolton, Ailsa Röell, José Scheinkman, Dan J. Wang, Tri Vi Dang"
+        },
+        "mphil": "M.Phil. in Volkswirtschaftslehre, 2012 & M.A. in Volkswirtschaftslehre, 2011, Columbia University, New York",
+        "ba": "B.A. in Volkswirtschaftslehre, 2009, Tsinghua-Universität, Peking",
+        "nec": {
+            "title": "Nationale Experimental­klasse für Naturwissenschaften, 2005, Ministerium für Bildung der VR China, Shanghai",
+            "concentration": "Schwerpunkt: Biologie, Chemie"
+        }
+    },
+    "grants": {
+        "shenzhen2023": "Wissenschaftlicher Forschungsfonds der Stadt Shenzhen, 5 Mio. RMB (714 Tsd. USD), 2023–2026",
+        "nsfdys2023": "Nationaler Wissenschaftsfonds Chinas für herausragende junge Wissenschaftler (Ausland), 2 Mio. RMB (285 Tsd. USD), 2023–2026",
+        "tsinghua2023": "Grundlagenfonds der Tsinghua-Universität, 100 Tsd. RMB (15 Tsd. USD), 2023",
+        "grf2023": "Hongkong General Research Fund (GRF), 350 Tsd. HKD (44 Tsd. USD), 2022–2023",
+        "grf2019": "Hongkong General Research Fund (GRF), 450 Tsd. HKD (56 Tsd. USD), 2018–2019",
+        "ecs2017": "Hongkong Early Career Scheme (ECS), 500 Tsd. HKD (62 Tsd. USD), 2016–2017",
+        "ikep2016": "Interdisziplinärer Fonds für den Wissensaustausch, Universität Hongkong, 100 Tsd. HKD (12,5 Tsd. USD), 2016",
+        "matching2015": "Matching Fund, Universität Hongkong, 80 Tsd. HKD (10 Tsd. USD), 2015",
+        "seed2015": "Seed Fund, Universität Hongkong, 150 Tsd. HKD (19 Tsd. USD), 2015"
+    },
+    "service": {
+        "referee": "Ad-hoc-Gutachter für:",
+        "discussant": "Diskutant auf zahlreichen Konferenzen",
+        "informs2025": "Sitzungsleiter, INFORMS-Jahrestagung, Singapur, 2025",
+        "wfa2022": "Programmkomitee der Western Finance Association (WFA), 2022",
+        "wfa2021": "Programmkomitee der Western Finance Association (WFA), 2021",
+        "fma2019": "Sitzungsleiter, FMA-Konferenz Europa 2019, Glasgow, Großbritannien, 2019",
+        "master2019": "Vorsitzender des Master-Abschlusskomitees, Central University of Finance and Economics, Peking, China, 2019",
+        "afbc2018": "Sitzungsleiter, 31. Australasian Finance and Banking Conference, Sydney, Australien, 2018",
+        "lixin2018": "Sitzungsleiter, Shanghaier Lixin-Workshop zu Recht und Finanzen, Shanghai, China, 2018",
+        "vietnam2018": "Sitzungsleiter, Vietnam Symposium in Banking and Finance 2018, Huế, Vietnam, 2018",
+        "cmes2017": "Sitzungsleiter Handel, China Meeting of the Econometric Society, Wuhan, China, 2017"
+    },
+    "certificates": {
+        "harvard": {
+            "title": "Executive Education, 2016",
+            "school": "Harvard Business School, Boston"
+        },
+        "berkeley": {
+            "title": "Summer Session, 2008",
+            "school": "UC Berkeley, Kalifornien"
+        }
+    },
+    "affiliations": {
+        "aea": "American Economic Association (AEA)",
+        "res": "Royal Economic Society",
+        "es": "Econometric Society",
+        "afa": "American Finance Association (AFA)",
+        "efa": "European Finance Association (EFA)",
+        "wfa": "Western Finance Association (WFA)",
+        "acm": "Association for Computing Machinery (ACM)",
+        "ieee": "Institute of Electrical and Electronics Engineers (IEEE)"
+    },
+    "awards": {
+        "tsinghua2025": "Jährlicher Preis für Forschungsexzellenz 2024, Tsinghua-Universität, 2025",
+        "supervision2022": "Preis für die Betreuung forschungsorientierter Graduierter, Universität Hongkong, 2022",
+        "vandijk2021": "Bureau-van-Dijk-Preis für Corporate Finance, 34. UNSW Australasian Finance and Banking Conference, 2021",
+        "supervision2021": "Preis für die Betreuung forschungsorientierter Graduierter, Universität Hongkong, 2021",
+        "vandijk2018": "Bureau-van-Dijk-Preis für Corporate Finance, 31. UNSW Australasian Finance and Banking Conference, 2018",
+        "summer": "Sommerstipendium, Columbia University, 30 Tsd. USD, 2009–2015",
+        "faculty": "Faculty Fellowship, Columbia University, 500 Tsd. USD, 2009–2015",
+        "mcm": "Meritorious Winner (Top 2–12 %), Mathematical Contest in Modeling (USA), 2008",
+        "comprehensive": "Gesamtstipendium, Tsinghua-Universität, 2008",
+        "cumcm": "Erster Preis, Chinesischer Wettbewerb für mathematische Modellierung (Hochschule), 2007",
+        "ccb": "Stipendium der China Construction Bank, Tsinghua-Universität, 2007",
+        "academic": "Erstklassiges Akademiestipendium, Tsinghua-Universität, 2006",
+        "biology": "Bronzemedaille, 13. Nationale Biologie-Olympiade der Oberstufe (Wintercamp), 2004",
+        "biology2": "3. Platz (Shanghai) und erster Preis, Nationale Biologie-Olympiade der Oberstufe, 2004",
+        "math": "1. Platz (bundesweit) und erster Preis, Nationale Mathematik-Olympiade der Mittelstufe, 2001",
+        "chemistry": "3. Platz (Anhui) und erster Preis, Nationale Chemie-Olympiade der Mittelstufe, 2001"
+    },
+    "uniservice": {
+        "deputydirector": "Stellvertretender Direktor, Research Center for Computational Finance, School of Economics and Management der Tsinghua-Universität",
+        "advisory": "Globales strategisches Beratungsgremium, Tsinghua SIGS",
+        "fintech": "Zulassungskommission des Master-of-Finance-Programms FinTech, HKU Business and Economics",
+        "curriculum": "Kommission zur Curriculumsentwicklung des Master-of-Finance-Programms FinTech, HKU Business and Economics",
+        "it": "IT-Kommission der Fakultät, HKU Business and Economics",
+        "seminar": "Organisator der Brown-Bag-Seminare des Fachgebiets Finanzen, HKU Business and Economics"
+    },
+    "teaching": {
+        "seminars": "Seminare zu fortgeschrittenen Themen der Finanzen, Master, Tsinghua-Universität, 2025",
+        "crypto": "Kryptografie und Netzwerksicherheit, Master, Tsinghua-Universität, 2025",
+        "frontier": "Forschung zu aktuellen Fragen der Finanzen, Master, Tsinghua-Universität, 2023–2024",
+        "programming": "Fortgeschrittene Finanzprogrammierung und Datenbanken, Master, HKU, 2017–2022",
+        "databases": "Finanzprogrammierung und Datenbanken, Bachelor, HKU, 2017–2022",
+        "corporate": "Corporate Finance, Bachelor, HKU, 2016–2022",
+        "money": "Geld und Bankwesen, Master und Bachelor, State University of New York, 2014",
+        "financial": "Finanzmanagement, Master und Bachelor, State University of New York, 2014",
+        "micro": "Mikroökonomie, Master, Columbia University (Tutor), 2010",
+        "corporate2": "Corporate Finance, Master und Bachelor, Columbia University (Tutor), 2010–2015",
+        "statistics": "Statistik des Nachhaltigkeitsmanagements, Master, Columbia University (Tutor), 2011",
+        "principles": "Grundlagen der Volkswirtschaftslehre, Bachelor, Columbia University (Tutor), 2012/2011",
+        "principles2": "Grundlagen der Volkswirtschaftslehre, Bachelor, Tsinghua-Universität (Tutor), 2008"
+    },
+    "placement": {
+        "wang": "Wang, Youan (Xiamen-Universität, Assistant Professor, 2022)",
+        "yu": "Yu, Luping (Xiamen-Universität, Assistant Professor, 2021)"
+    },
+    "team": {
+        "title": "Postdoc-Rekrutierung",
+        "section1": {
+            "title": "1. Vorstellung des Betreuungsteams",
+            "content": "Das Rekrutierungsteam besteht aus Professorinnen und Professoren der Shenzhen International Graduate School der Tsinghua-Universität, der Universität Hongkong sowie der Wirtschafts-, Business- und Informatikfakultäten der University of Queensland. Das Team verfügt über eine solide Forschungsgrundlage und reiche akademische Erfolge in Statistik, Informatik, FinTech und Data Science. Die Teammitglieder widmen sich seit Langem interdisziplinärer Forschung in den Bereichen maschinelles Lernen, Datensicherheit, Verarbeitung natürlicher Sprache, graphische neuronale Netze, statistische Modellierung und FinTech-Anwendungen. Das Kooperationsnetzwerk erstreckt sich über mehrere Fakultäten der Tsinghua-Universität, der Universität Hongkong und der University of Queensland und bietet eine solide Grundlage für internationale Zusammenarbeit. Die Teammitglieder haben zahlreiche hochrangige Beiträge in führenden internationalen Fachzeitschriften und auf Konferenzen wie MS, ECMA, AER, JoE, JFE, JLE, JFQA, JIE, JRSS B, JMLR, CVPR, KDD, TKDE, TOIS, ICDE, SIGIR, ACL, AAAI, ICML und TPAMI veröffentlicht und mehrfach akademische Auszeichnungen erhalten."
+        },
+        "section2": {
+            "title": "2. Ausgeschriebene Stellen und Forschungsrichtungen",
+            "content": "Wir beabsichtigen, gemeinsam Postdoktorandinnen und Postdoktoranden zu rekrutieren, mit Schwerpunkt auf herausragenden Wissenschaftlerinnen und Wissenschaftlern mit Hintergrund in Mathematik, Statistik, Informatik und verwandten interdisziplinären Fächern. Bewerber müssen über solide mathematische, statistische und Programmierkenntnisse verfügen und Erfahrung in der Veröffentlichung wissenschaftlicher Beiträge in führenden internationalen Zeitschriften oder auf Konferenzen mitbringen.",
+            "directions": "Die wichtigsten Forschungsrichtungen umfassen unter anderem:",
+            "list": {
+                "item1": "FinTech und intelligente Entscheidungssysteme: Forschung zur Anwendung von maschinellem Lernen, Big-Data-Analyse, Blockchain und anderen Technologien in den Bereichen intelligenter Finanzhandel, Risikoprognose, Bonitätsbewertung und weitere Felder.",
+                "item2": "Sicherheit von Finanzdaten und Privacy Computing: Schwerpunkt auf modernsten Methoden wie sicherer Datenspeicherung, Datenschutz und föderiertem Lernen für Finanz- und sensiblen Daten in institutionsübergreifenden und grenzüberschreitenden Umgebungen.",
+                "item3": "Data Science und KI-Methodik: Schwerpunkt auf breiterer Data Science, statistischem maschinellem Lernen, Optimierung von Deep-Learning-Algorithmen, erklärbare KI und anderen theoretischen Methoden sowie deren Anwendungen in Finanzen, Gesundheitswesen, biologischer Genomik und weiteren Bereichen.",
+                "item4": "Systemisches Risiko und Analyse von Finanznetzwerken: Einsatz graphischer neuronaler Netze, mehrschichtiger Netzwerkmodellierung und anderer Methoden zur Untersuchung von Risikoansteckungsmechanismen und der Entwicklung von Netzwerkstrukturen im Finanzsystem.",
+                "item5": "Verarbeitung natürlicher Sprache und Textdaten-Mining: Entwicklung und Anwendung von NLP-Methoden zur Gewinnung wichtiger Informationen aus unstrukturierten Daten wie Finanztexten, Stimmungsdaten und Politikdokumenten für Frühwarnung und Entscheidungsunterstützung.",
+                "item6": "Weitere interdisziplinäre Schwerpunktthemen: einschließlich, aber nicht beschränkt auf Datensicherheit, Mehrparteienberechnung, Algorithmenfairness, KI-Ethik und Governance sowie Mining von Gesundheitsdaten und andere Richtungen."
+            }
+        },
+        "section3": {
+            "title": "3. Bewerbungsvoraussetzungen",
+            "list": {
+                "item1": "Kürzlich erworbener oder in Kürze zu erwerbender Doktortitel in Wirtschaftswissenschaften, Statistik, Informatik oder verwandten Fächern.",
+                "item2": "Veröffentlichte wissenschaftliche Beiträge in den genannten Forschungsrichtungen als Erstautor oder korrespondierender Autor in führenden internationalen Zeitschriften oder auf Konferenzen der Statistik, Informatik oder Wirtschaftswissenschaften (B-Zeitschriften oder B-Konferenzen). Bewerber mit Veröffentlichungen in A-Zeitschriften und auf A-Konferenzen werden bevorzugt berücksichtigt.",
+                "item3": "Ausgeprägter Teamgeist und Kommunikationsstärke, Fähigkeit, selbstständig zu forschen und andere bei ihrer Arbeit zu unterstützen."
+            }
+        },
+        "section4": {
+            "title": "4. Vergütung und Leistungen",
+            "list": {
+                "item1": "Wettbewerbsfähiges Vergütungspaket, Einzelheiten verhandelbar.",
+                "item2": "Attraktive Prämien für Publikationen und Patentanmeldungen, bis zu 50 % des Jahresgehalts.",
+                "item3": "Wettbewerbsfähige Unterstützung für In- und Auslandsreisen.",
+                "item4": "Gute Forschungsbedingungen und -umgebung, Unterstützung bei der Beantragung von Forschungsprojekten und internationalen akademischen Austauschaktivitäten.",
+                "item5": "Während der Postdoc-Zeit können Forschungsressourcen und Leistungen mehrerer Partneruniversitäten genutzt und die Zusammenarbeit mit den Betreuenden ausgebaut werden.",
+                "item6": "Auf der Grundlage der Arbeitsleistung und Forschungsergebnisse werden weitere Karriereentwicklungsmöglichkeiten angeboten, etwa Empfehlungen an Partneruniversitäten."
+            }
+        },
+        "section5": {
+            "title": "5. Bewerbungsverfahren",
+            "content": "Bitte senden Sie die folgenden Unterlagen an wangzigan@sz.tsinghua.edu.cn mit dem Betreff „Postdoc-Bewerbung + Name + Forschungsrichtung“:",
+            "list": {
+                "item1": "Lebenslauf (mit Name, Ausbildung, Berufserfahrung, Forschungserfahrung, Publikationen usw.).",
+                "item2": "Forschungsvorhaben (kurze Darstellung der geplanten Forschungsrichtung und des Inhalts, höchstens 3 Seiten).",
+                "item3": "Kontaktdaten von zwei Referenzpersonen (Name, Institution, Position, E-Mail-Adresse usw.).",
+                "item4": "Weitere Nachweise (veröffentlichte wissenschaftliche Beiträge und Patente)."
+            }
+        },
+        "section6": {
+            "title": "6. Arbeitsort",
+            "list": {
+                "item1": "Shenzhen International Graduate School der Tsinghua-Universität",
+                "item2": "Shenzhen Research Institute der School of Economics and Management, Tsinghua-Universität",
+                "item3": "Shenzhen-Campus der HKU Business School",
+                "item4": "St.-Lucia-Campus der University of Queensland"
+            }
+        },
+        "section7": {
+            "title": "7. Kontakt",
+            "contact": "Kontakt: Professor Wang",
+            "email": "E-Mail: wangzigan@sz.tsinghua.edu.cn",
+            "welcome": "Wir heißen herausragende Doktorabsolventinnen und -absolventen, die in den genannten Bereichen forschen möchten, herzlich willkommen — lassen Sie uns gemeinsam aktuelle Fragestellungen erforschen und die Entwicklung von Wissenschaft und Praxis voranbringen."
+        }
+    }
+}
