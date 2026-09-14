@@ -24,6 +24,8 @@
         "book": "서적 장(章)",
         "working": "심사 수정 중인 워킹페이퍼",
         "current_interests": "현재 연구 관심 분야",
+        "pub_tab_econ": "경제학 / 금융 / 경영",
+        "pub_tab_cs": "컴퓨터 과학 / AI",
         "pub_econ": "경제학·금융학 저널 게재 심사 논문",
         "pub_cs": "컴퓨터과학 학회 게재 심사 논문",
         "other_working": "기타 워킹페이퍼",

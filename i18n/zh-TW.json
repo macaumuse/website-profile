@@ -24,6 +24,8 @@
         "book": "書籍章節",
         "working": "修改中的工作論文",
         "current_interests": "現階段研究興趣",
+        "pub_tab_econ": "經濟 / 金融 / 商科",
+        "pub_tab_cs": "計算機科學 / 人工智慧",
         "pub_econ": "經濟學與金融學期刊同行審查論文",
         "pub_cs": "計算機科學會議同行審查論文",
         "other_working": "其他工作論文",

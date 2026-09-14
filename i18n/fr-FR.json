@@ -24,6 +24,8 @@
         "book": "Chapitre d'ouvrage",
         "working": "Documents de travail en révision",
         "current_interests": "Intérêts de recherche actuels",
+        "pub_tab_econ": "Économie / Finance / Gestion",
+        "pub_tab_cs": "Informatique / IA",
         "pub_econ": "Publications à comité de lecture dans des revues d'économie et de finance",
         "pub_cs": "Publications à comité de lecture dans des conférences d'informatique",
         "other_working": "Autres documents de travail",

@@ -24,6 +24,8 @@
         "book": "Chương sách",
         "working": "Bài báo đang chỉnh sửa",
         "current_interests": "Hướng nghiên cứu hiện tại",
+        "pub_tab_econ": "Kinh tế / Tài chính / Kinh doanh",
+        "pub_tab_cs": "Khoa học máy tính / AI",
         "pub_econ": "Bài báo được bình duyệt trên các tạp chí kinh tế và tài chính",
         "pub_cs": "Bài báo được bình duyệt trên các hội nghị khoa học máy tính",
         "other_working": "Các bài báo đang làm khác",

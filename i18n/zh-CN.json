@@ -24,6 +24,8 @@
         "book": "书籍章节",
         "working": "修改中的工作论文",
         "current_interests": "当前研究兴趣",
+        "pub_tab_econ": "经济 / 金融 / 商科",
+        "pub_tab_cs": "计算机科学 / 人工智能",
         "pub_econ": "经济学与金融学期刊同行评审论文",
         "pub_cs": "计算机科学会议同行评审论文",
         "other_working": "其他工作论文",

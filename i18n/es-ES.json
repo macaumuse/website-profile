@@ -24,6 +24,8 @@
         "book": "Capítulo de libro",
         "working": "Documentos de trabajo en revisión",
         "current_interests": "Intereses de investigación actuales",
+        "pub_tab_econ": "Economía / Finanzas / Empresa",
+        "pub_tab_cs": "Informática / IA",
         "pub_econ": "Publicaciones revisadas por pares en revistas de economía y finanzas",
         "pub_cs": "Publicaciones revisadas por pares en conferencias de ciencias de la computación",
         "other_working": "Otros documentos de trabajo",

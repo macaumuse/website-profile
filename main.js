@@ -5,7 +5,7 @@
         networkTimeout: 10000,
         retryAttempts: 3,
         retryDelay: 1000,
-        translationsCacheKey: 'translations_cache_v2',
+        translationsCacheKey: 'translations_cache_v3',
         translationsCacheExpiry: 7 * 24 * 60 * 60 * 1000,
         defaultLang: 'en-US',
         rtlLanguages: ['ar-SA', 'he-IL']
@@ -109,7 +109,7 @@
         footer: `
         <footer class="bg-gray-50 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-700 mt-auto">
             <div class="px-6 py-4 text-center text-sm text-gray-600 dark:text-gray-400">
-                © 2025 Zigan Wang. All rights reserved.
+                © ${new Date().getFullYear()} Zigan Wang. All rights reserved.
             </div>
         </footer>`,
 

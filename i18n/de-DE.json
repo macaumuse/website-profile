@@ -24,6 +24,8 @@
         "book": "Buchkapitel",
         "working": "Arbeitspapiere in Überarbeitung",
         "current_interests": "Aktuelle Forschungsinteressen",
+        "pub_tab_econ": "Wirtschaft / Finanzen / Business",
+        "pub_tab_cs": "Informatik / KI",
         "pub_econ": "Begutachtete Publikationen in wirtschafts- und finanzwissenschaftlichen Fachzeitschriften",
         "pub_cs": "Begutachtete Publikationen auf Informatik-Konferenzen",
         "other_working": "Weitere Arbeitspapiere",

@@ -24,6 +24,8 @@
         "book": "Book Chapter",
         "working": "Working Papers Under Revision",
         "current_interests": "Current Research Interests",
+        "pub_tab_econ": "Economics / Finance / Business",
+        "pub_tab_cs": "Computer Science / AI",
         "pub_econ": "Peer-reviewed Publications in Economics and Finance Journals",
         "pub_cs": "Peer-reviewed Publications in Computer Science Conferences",
         "other_working": "Other Working Papers",
