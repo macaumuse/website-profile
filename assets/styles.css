@@ -368,34 +368,36 @@ select {
    Publications page (pub.html): field switch and entries.
    Typography follows the homepage sections.
    ========================================================================= */
-.pub-switch { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0.25rem 0 2rem; }
+.pub-switch {
+  display: flex; gap: 0; margin: 0.5rem 0 2rem;
+  border: 1px solid var(--color-gray-300); border-radius: 0.5rem; overflow: hidden;
+  background: var(--color-white);
+}
 .pub-switch-btn {
-  flex: 1 1 16rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.625rem;
-  padding: 0.875rem 1.25rem; border: 1px solid var(--color-gray-300); border-radius: 0.5rem;
-  background: var(--color-white); color: var(--color-primary);
-  font-size: 1rem; line-height: 1.5rem; font-weight: 600;
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  transition: background-color 150ms, border-color 150ms, color 150ms, box-shadow 150ms;
+  flex: 1 1 0; min-width: 0; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  padding: 0.75rem 1rem; color: var(--color-primary);
+  font-size: 0.9375rem; line-height: 1.375rem; font-weight: 600; text-align: center;
+  transition: background-color 150ms, color 150ms;
 }
 .pub-switch:not(.is-ready) .pub-switch-btn { transition: none; }
-.pub-switch-btn:hover { border-color: var(--color-primary); background: rgb(0 95 169 / 0.04); }
-.pub-switch-btn:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
-.pub-switch-btn[aria-selected="true"] {
-  background: var(--color-primary); border-color: var(--color-primary); color: var(--color-white);
-  box-shadow: 0 4px 10px -2px rgb(0 95 169 / 0.35);
+.pub-switch-btn + .pub-switch-btn { border-inline-start: 1px solid var(--color-gray-300); }
+.pub-switch-btn:hover { background: rgb(0 95 169 / 0.06); }
+.pub-switch-btn:focus-visible { outline: 2px solid var(--color-primary); outline-offset: -3px; }
+.pub-switch-btn[aria-selected="true"] { background: var(--color-primary); color: var(--color-white); }
+.pub-switch-btn[aria-selected="true"]:hover { background: var(--color-primary); }
+.pub-switch-count { font-weight: 500; font-size: 0.8125rem; opacity: 0.75; font-variant-numeric: tabular-nums; }
+.pub-switch-btn[aria-selected="true"] .pub-switch-count { opacity: 0.85; }
+@media (max-width: 480px) {
+  .pub-switch { flex-direction: column; }
+  .pub-switch-btn + .pub-switch-btn { border-inline-start: 0; border-top: 1px solid var(--color-gray-300); }
 }
-.pub-switch-icon { width: 1.25rem; height: 1.25rem; flex-shrink: 0; }
-.pub-switch-count {
-  padding: 0 0.5rem; border-radius: 9999px; font-size: 0.8125rem; line-height: 1.375rem; font-weight: 600;
-  font-variant-numeric: tabular-nums; background: rgb(0 95 169 / 0.1);
-}
-.pub-switch-btn[aria-selected="true"] .pub-switch-count { background: rgb(255 255 255 / 0.22); }
-[data-theme="dark"] .pub-switch-btn { background: var(--color-gray-800); border-color: var(--color-gray-600); color: var(--color-blue-400); box-shadow: none; }
-[data-theme="dark"] .pub-switch-btn:hover { border-color: var(--color-blue-400); background: rgb(96 165 250 / 0.08); }
+[data-theme="dark"] .pub-switch { border-color: var(--color-gray-600); background: var(--color-gray-800); }
+[data-theme="dark"] .pub-switch-btn { color: var(--color-blue-400); }
+[data-theme="dark"] .pub-switch-btn + .pub-switch-btn { border-color: var(--color-gray-600); }
+[data-theme="dark"] .pub-switch-btn:hover { background: rgb(96 165 250 / 0.1); }
 [data-theme="dark"] .pub-switch-btn:focus-visible { outline-color: var(--color-blue-400); }
-[data-theme="dark"] .pub-switch-btn[aria-selected="true"] { background: var(--color-blue-600); border-color: var(--color-blue-600); color: var(--color-white); }
-[data-theme="dark"] .pub-switch-count { background: rgb(96 165 250 / 0.15); }
-[data-theme="dark"] .pub-switch-btn[aria-selected="true"] .pub-switch-count { background: rgb(255 255 255 / 0.2); }
+[data-theme="dark"] .pub-switch-btn[aria-selected="true"],
+[data-theme="dark"] .pub-switch-btn[aria-selected="true"]:hover { background: var(--color-blue-600); color: var(--color-white); }
 
 .pub-panel[hidden] { display: none; }
 .pub-legend { margin: 0 0 1.25rem; font-size: 0.875rem; line-height: 1.375rem; color: var(--color-gray-500); }
