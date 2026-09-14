@@ -5,7 +5,7 @@
         networkTimeout: 10000,
         retryAttempts: 3,
         retryDelay: 1000,
-        translationsCacheKey: 'translations_cache_v5',
+        translationsCacheKey: 'translations_cache_v6',
         translationsCacheExpiry: 7 * 24 * 60 * 60 * 1000,
         defaultLang: 'en-US',
         rtlLanguages: ['ar-SA', 'he-IL']
@@ -185,7 +185,7 @@
 
     async function loadTranslation(lang) {
         try {
-            const response = await fetchWithRetry(`i18n/${lang}.json`);
+            const response = await fetchWithRetry(`i18n/${lang}.json?v=20260914d`);
             if (!response.ok) throw new Error(`Failed to load ${lang} translations`);
             return await response.json();
         } catch (error) {
