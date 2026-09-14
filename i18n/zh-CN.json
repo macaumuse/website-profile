@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan（厦门大学，助理教授，2022）",
         "yu": "Yu, Luping（厦门大学，助理教授，2021）"
+    },
+    "layout": {
+        "profile": "学术履历",
+        "rankings": "评级缩写说明",
+        "skip": "跳转到正文",
+        "columbia": "哥伦比亚大学",
+        "slides_intro": "学术讲座、会议报告与研讨会演示文稿。"
     }
 }

@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan（廈門大學，助理教授，2022）",
         "yu": "Yu, Luping（廈門大學，助理教授，2021）"
+    },
+    "layout": {
+        "profile": "學術履歷",
+        "rankings": "評級縮寫說明",
+        "skip": "跳至正文",
+        "columbia": "哥倫比亞大學",
+        "slides_intro": "學術講座、會議報告與研討會簡報。"
     }
 }

@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan (Università di Xiamen, Professore Assistant, 2022)",
         "yu": "Yu, Luping (Università di Xiamen, Professore Assistant, 2021)"
+    },
+    "layout": {
+        "profile": "Profilo accademico",
+        "rankings": "Abbreviazioni delle classifiche",
+        "skip": "Vai al contenuto",
+        "columbia": "Columbia University",
+        "slides_intro": "Materiali di lezioni, conferenze e seminari."
     }
 }

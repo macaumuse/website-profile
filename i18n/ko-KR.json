@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan(샤먼대학교, 조교수, 2022)",
         "yu": "Yu, Luping(샤먼대학교, 조교수, 2021)"
+    },
+    "layout": {
+        "profile": "학술 이력",
+        "rankings": "평가 약어 안내",
+        "skip": "본문으로 이동",
+        "columbia": "컬럼비아 대학교",
+        "slides_intro": "학술 강의, 학회 발표 및 세미나 자료."
     }
 }

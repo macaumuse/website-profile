@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan (Universidad de Xiamen, Profesor Titular, 2022)",
         "yu": "Yu, Luping (Universidad de Xiamen, Profesor Titular, 2021)"
+    },
+    "layout": {
+        "profile": "Perfil académico",
+        "rankings": "Abreviaturas de clasificaciones",
+        "skip": "Saltar al contenido",
+        "columbia": "Universidad de Columbia",
+        "slides_intro": "Materiales de clases, conferencias y seminarios."
     }
 }

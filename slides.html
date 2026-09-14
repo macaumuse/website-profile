@@ -14,33 +14,34 @@
     <meta property="og:url" content="https://wangzigan.com/slides.html">
     <meta property="og:title" content="Slides - Zigan Wang">
     <meta property="og:description" content="Presentation slides by Zigan Wang">
-    <meta property="og:image" content="https://wangzigan.com/assets/avatar.webp">
+    <meta property="og:image" content="https://wangzigan.com/assets/avatar-restored.webp">
     <meta property="og:site_name" content="Zigan Wang Academic Homepage">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://wangzigan.com/slides.html">
     <meta property="twitter:title" content="Slides - Zigan Wang">
     <meta property="twitter:description" content="Presentation slides by Zigan Wang">
-    <meta property="twitter:image" content="https://wangzigan.com/assets/avatar.webp">
+    <meta property="twitter:image" content="https://wangzigan.com/assets/avatar-restored.webp">
 
     <title>Slides - Zigan Wang | Zhejiang University</title>
 
 
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-    <link rel="stylesheet" href="assets/styles.css?v=20260914b">
+    <link rel="stylesheet" href="assets/styles.css?v=20260914c">
+    <link rel="stylesheet" href="assets/design.css?v=20260914c">
 </head>
 
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-200 antialiased">
-    <div class="max-w-7xl mx-auto bg-white dark:bg-gray-800 shadow-sm min-h-screen flex flex-col">
+    <div class="site-shell">
         <div id="header"></div>
 
-        <div class="flex flex-col md:flex-row flex-grow">
+        <div class="site-layout">
             <div id="sidebar"></div>
 
-            <main class="flex-1 p-6 md:p-8 bg-white dark:bg-gray-800">
-                <section class="max-w-4xl mx-auto">
-                    <div class="mb-10 pb-4 border-b border-gray-100 dark:border-gray-700">
-                        <h2 class="text-2xl font-bold text-section dark:text-blue-400" data-i18n="sections.slides">Presentation Slides</h2>
-                        <p class="mt-1 text-gray-500 dark:text-gray-400">Academic lectures, conference presentations, and seminar decks.</p>
+            <main id="main-content" class="site-main" tabindex="-1">
+                <section class="slides-section">
+                    <div class="page-heading slides-heading">
+                        <h1 class="page-title" data-i18n="sections.slides">Presentation Slides</h1>
+                        <p data-i18n="layout.slides_intro">Academic lectures, conference presentations, and seminar decks.</p>
                     </div>
 
                     <div id="slides-container">
@@ -62,7 +63,7 @@
 
     <div id="back-to-top"></div>
 
-    <script src="main.js?v=20260914b"></script>
+    <script src="main.js?v=20260914c"></script>
     <script>
         // Load slides data from generated JSON file
         async function loadSlides() {
@@ -96,7 +97,7 @@
 
                 const sortedYears = Object.keys(slidesByYear).sort((a, b) => b - a);
 
-                let html = '<div class="relative border-l-2 border-gray-100 dark:border-gray-700 ml-3 md:ml-4 space-y-10">';
+                let html = '<div class="slides-timeline relative border-l-2 border-gray-100 dark:border-gray-700 ml-3 md:ml-4 space-y-10">';
                 
                 sortedYears.forEach(year => {
                     html += `
@@ -122,14 +123,14 @@
                         if (!cardHref) return;
 
                         html += `
-                            <a href="${cardHref}" target="_blank" class="group block p-4 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-blue-400 hover:shadow-sm transition-all duration-200">
+                            <a href="${cardHref}" target="_blank" rel="noopener" class="slide-entry group block p-4 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-blue-400 hover:shadow-sm transition-all duration-200">
                                 <div class="flex items-center gap-4">
                                     <div class="min-w-0 flex-1">
                                         <h4 class="text-base font-semibold text-gray-900 dark:text-gray-100 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors" title="${slide.title}">
                                             ${slide.title || 'Untitled Presentation'}
                                         </h4>
-                                        <div class="flex items-center mt-1 text-xs text-gray-500 dark:text-gray-400">
-                                            <span class="font-medium">${month} ${day}</span>
+                                        <div class="slide-date">
+                                            <span class="font-medium">${month} ${day}</span><span class="slide-format">${hasHtml ? 'Slides' : 'PDF'}</span>
                                         </div>
                                     </div>
                                     <svg class="w-5 h-5 text-gray-400 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

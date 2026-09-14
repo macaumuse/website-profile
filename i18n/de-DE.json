@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan (Xiamen-Universität, Assistant Professor, 2022)",
         "yu": "Yu, Luping (Xiamen-Universität, Assistant Professor, 2021)"
+    },
+    "layout": {
+        "profile": "Akademisches Profil",
+        "rankings": "Abkürzungen der Rankings",
+        "skip": "Zum Inhalt springen",
+        "columbia": "Columbia University",
+        "slides_intro": "Vorlesungen, Konferenzvorträge und Seminarfolien."
     }
 }

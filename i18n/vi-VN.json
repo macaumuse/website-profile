@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan (Đại học Hạ Môn, Trợ lý Giáo sư, 2022)",
         "yu": "Yu, Luping (Đại học Hạ Môn, Trợ lý Giáo sư, 2021)"
+    },
+    "layout": {
+        "profile": "Hồ sơ học thuật",
+        "rankings": "Chữ viết tắt xếp hạng",
+        "skip": "Chuyển đến nội dung",
+        "columbia": "Đại học Columbia",
+        "slides_intro": "Bài giảng, bài trình bày hội nghị và tài liệu hội thảo."
     }
 }

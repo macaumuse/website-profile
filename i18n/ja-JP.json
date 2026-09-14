@@ -157,5 +157,12 @@
     "placement": {
         "wang": "Wang, Youan（廈門大学、助教授、2022）",
         "yu": "Yu, Luping（廈門大学、助教授、2021）"
+    },
+    "layout": {
+        "profile": "学術プロフィール",
+        "rankings": "ランキングの略語",
+        "skip": "本文へ移動",
+        "columbia": "コロンビア大学",
+        "slides_intro": "学術講義、学会発表、セミナーのスライド。"
     }
 }
