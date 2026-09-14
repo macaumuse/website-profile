@@ -5,11 +5,9 @@
         "publications": "Công trình công bố",
         "teaching": "Giảng dạy",
         "research": "Nghiên cứu",
-        "slides": "Slide thuyết trình",
-        "team": "Nhóm (Đang tuyển dụng)"
+        "slides": "Slide thuyết trình"
     },
     "sections": {
-        "research": "Hướng nghiên cứu quan tâm",
         "employment": "Quá trình công tác",
         "education": "Học vấn",
         "grants": "Các quỹ và trợ cấp nghiên cứu được cấp",
@@ -34,10 +32,6 @@
     },
     "slides": {
         "loading": "Đang tải slide..."
-    },
-    "research": {
-        "interests": "Hướng nghiên cứu quan tâm:",
-        "fields": "Kinh tế vi mô ứng dụng, kinh tế quốc tế, kinh tế môi trường, kinh tế chính trị và pháp luật, mạng lưới kinh tế, kinh tế lượng, thị giác máy tính, đồ thị tri thức, GAN."
     },
     "employment": {
         "zju": {
@@ -163,69 +157,5 @@
     "placement": {
         "wang": "Wang, Youan (Đại học Hạ Môn, Trợ lý Giáo sư, 2022)",
         "yu": "Yu, Luping (Đại học Hạ Môn, Trợ lý Giáo sư, 2021)"
-    },
-    "team": {
-        "title": "Tuyển dụng nghiên cứu sinh hậu tiến sĩ",
-        "section1": {
-            "title": "1. Giới thiệu nhóm hướng dẫn",
-            "content": "Nhóm tuyển dụng này gồm các giáo sư đến từ Viện Nghiên cứu sinh Quốc tế Thâm Quyến thuộc Đại học Thanh Hoa, Đại học Hong Kong và các khoa Kinh tế, Kinh doanh, Khoa học Máy tính của Đại học Queensland. Nhóm có nền tảng nghiên cứu vững chắc và thành tựu học thuật phong phú trong thống kê, khoa học máy tính, fintech và khoa học dữ liệu. Các thành viên lâu nay theo đuổi nghiên cứu liên ngành về học máy, bảo mật dữ liệu, xử lý ngôn ngữ tự nhiên, mạng nơ-ron đồ thị, mô hình hóa thống kê và ứng dụng fintech. Mạng lưới hợp tác trải rộng trên nhiều khoa của Đại học Thanh Hoa, Đại học Hong Kong và Đại học Queensland, với nền tảng hợp tác quốc tế vững chắc. Các thành viên đã công bố nhiều bài báo chất lượng cao trên các tạp chí và hội nghị học thuật quốc tế hàng đầu như MS, ECMA, AER, JoE, JFE, JLE, JFQA, JIE, JRSS B, JMLR, CVPR, KDD, TKDE, TOIS, ICDE, SIGIR, ACL, AAAI, ICML, TPAMI và nhiều lần nhận giải thưởng học thuật."
-        },
-        "section2": {
-            "title": "2. Vị trí tuyển dụng và hướng nghiên cứu",
-            "content": "Nhóm dự kiến tuyển chung các nghiên cứu sinh hậu tiến sĩ, ưu tiên các học giả xuất sắc có nền tảng về toán học, thống kê, khoa học máy tính và các lĩnh vực liên ngành liên quan. Người ứng tuyển phải có năng lực toán học, thống kê và lập trình vững vàng, cùng kinh nghiệm công bố bài báo trên các tạp chí hoặc hội nghị quốc tế hàng đầu.",
-            "directions": "Các hướng nghiên cứu chính bao gồm nhưng không giới hạn ở:",
-            "list": {
-                "item1": "Fintech và hệ thống ra quyết định thông minh: nghiên cứu ứng dụng của học máy, phân tích dữ liệu lớn, chuỗi khối và các công nghệ khác trong giao dịch tài chính thông minh, dự báo rủi ro, đánh giá tín dụng và các lĩnh vực khác.",
-                "item2": "An toàn dữ liệu tài chính và tính toán bảo vệ quyền riêng tư: tập trung vào các phương pháp tiên tiến như lưu trữ dữ liệu an toàn, bảo vệ quyền riêng tư và học liên hợp (federated learning) cho dữ liệu tài chính và dữ liệu nhạy cảm trong môi trường liên tổ chức và xuyên biên giới.",
-                "item3": "Khoa học dữ liệu và phương pháp luận AI: tập trung vào khoa học dữ liệu theo nghĩa rộng, học máy thống kê, tối ưu hóa thuật toán học sâu, AI có thể giải thích và các nghiên cứu phương pháp lý thuyết khác, cùng ứng dụng trong tài chính, y tế, hệ gen sinh học và các lĩnh vực khác.",
-                "item4": "Rủi ro hệ thống và phân tích mạng tài chính: sử dụng mạng nơ-ron đồ thị, mô hình hóa mạng đa tầng và các phương pháp khác để nghiên cứu cơ chế lây lan rủi ro và sự tiến hóa cấu trúc mạng trong hệ thống tài chính.",
-                "item5": "Xử lý ngôn ngữ tự nhiên và khai phá dữ liệu văn bản: phát triển và áp dụng các phương pháp NLP để khai thác thông tin then chốt từ dữ liệu phi cấu trúc như văn bản tài chính, dữ liệu dư luận và văn bản chính sách, phục vụ cảnh báo rủi ro và hỗ trợ ra quyết định.",
-                "item6": "Các vấn đề liên ngành tiên phong khác: bao gồm nhưng không giới hạn an toàn dữ liệu, tính toán đa bên, công bằng thuật toán, đạo đức và quản trị AI, khai phá dữ liệu y tế và sức khỏe và các hướng khác."
-            }
-        },
-        "section3": {
-            "title": "3. Điều kiện ứng tuyển",
-            "list": {
-                "item1": "Mới nhận hoặc sắp nhận bằng tiến sĩ ngành khoa học quản lý, thống kê, khoa học máy tính hoặc chuyên ngành liên quan.",
-                "item2": "Đã công bố bài báo khoa học theo các hướng nghiên cứu trên với vai trò tác giả đầu hoặc tác giả liên hệ, trên các tạp chí hoặc hội nghị quốc tế hàng đầu về thống kê, khoa học máy tính hoặc khoa học quản lý (tạp chí hạng B hoặc hội nghị hạng B). Ưu tiên ứng viên có bài trên tạp chí và hội nghị hạng A.",
-                "item3": "Có tinh thần làm việc nhóm và kỹ năng giao tiếp tốt, có khả năng độc lập nghiên cứu và hỗ trợ hướng dẫn người khác."
-            }
-        },
-        "section4": {
-            "title": "4. Chế độ đãi ngộ",
-            "list": {
-                "item1": "Gói lương cạnh tranh, cụ thể thỏa thuận.",
-                "item2": "Thưởng công bố bài báo và đăng ký sáng chế cạnh tranh, tối đa đến 50% lương năm.",
-                "item3": "Hỗ trợ đi lại trong nước và quốc tế cạnh tranh.",
-                "item4": "Điều kiện và môi trường nghiên cứu tốt, hỗ trợ nghiên cứu sinh hậu tiến sĩ đăng ký các đề tài nghiên cứu và hoạt động giao lưu học thuật quốc tế.",
-                "item5": "Trong thời gian làm hậu tiến sĩ, được hưởng nguồn lực nghiên cứu và phúc lợi từ nhiều trường đối tác, mở rộng hợp tác với các giáo sư hướng dẫn.",
-                "item6": "Dựa trên kết quả công tác và nghiên cứu, cung cấp cơ hội phát triển nghề nghiệp tiếp theo, như tiến cử đến các trường đối tác."
-            }
-        },
-        "section5": {
-            "title": "5. Cách thức ứng tuyển",
-            "content": "Vui lòng gửi các hồ sơ sau đến wangzigan@sz.tsinghua.edu.cn, tiêu đề email ghi rõ \"Ứng tuyển hậu tiến sĩ + Họ tên + Hướng nghiên cứu\":",
-            "list": {
-                "item1": "Sơ yếu lý lịch (gồm họ tên, học vấn, kinh nghiệm làm việc, kinh nghiệm nghiên cứu, các bài báo đã công bố, v.v.).",
-                "item2": "Đề cương nghiên cứu (trình bày ngắn gọn hướng và nội dung nghiên cứu dự kiến, không quá 3 trang).",
-                "item3": "Thông tin liên hệ của hai người tiến cử (gồm họ tên, đơn vị công tác, chức danh, địa chỉ email, v.v.).",
-                "item4": "Các tài liệu bổ trợ khác (bài báo khoa học và sáng chế đã công bố)."
-            }
-        },
-        "section6": {
-            "title": "6. Địa điểm làm việc",
-            "list": {
-                "item1": "Viện Nghiên cứu sinh Quốc tế Thâm Quyến, Đại học Thanh Hoa",
-                "item2": "Viện Nghiên cứu Thâm Quyến thuộc Viện Kinh tế và Quản lý, Đại học Thanh Hoa",
-                "item3": "Cơ sở Thâm Quyến của Khoa Kinh doanh, Đại học Hong Kong",
-                "item4": "Cơ sở St Lucia, Đại học Queensland"
-            }
-        },
-        "section7": {
-            "title": "7. Thông tin liên hệ",
-            "contact": "Người liên hệ: Giáo sư Wang",
-            "email": "Email: wangzigan@sz.tsinghua.edu.cn",
-            "welcome": "Chúng tôi chào đón các tiến sĩ xuất sắc quan tâm nghiên cứu trong các lĩnh vực trên hãy gia nhập nhóm, cùng khám phá các vấn đề tiên phong và thúc đẩy sự phát triển của nghiên cứu học thuật lẫn ứng dụng thực tiễn."
-        }
     }
 }

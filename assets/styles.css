@@ -413,15 +413,43 @@ select {
 [data-theme="dark"] .pub-subheading { color: var(--color-blue-400); }
 
 /* =========================================================================
-   Employment (index.html), laid out like the CV: university, then title and years
+   Sidebar: full height, sticky contents, profile links
    ========================================================================= */
-.emp-org { font-weight: 600; color: var(--color-gray-900); }
-[data-theme="dark"] .emp-org { color: var(--color-gray-100); }
-.emp-row { display: flex; flex-wrap: wrap; justify-content: space-between; column-gap: 1rem; }
-.emp-row + .emp-row { margin-top: 0.125rem; }
-.emp-row-gap { margin-top: 0.5rem; }
-.emp-role { min-width: 0; }
+#sidebar { display: flex; }
+.site-sidebar { flex: 1 1 auto; }
+@media (min-width: 768px) { .sidebar-sticky { position: sticky; top: 1.5rem; } }
+.sidebar-links {
+  margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--color-gray-200);
+  font-size: 0.875rem; line-height: 1.25rem;
+}
+.sidebar-links li { display: flex; justify-content: space-between; gap: 0.75rem; }
+.sidebar-links li + li { margin-top: 0.5rem; }
+.sidebar-links-label { color: var(--color-gray-500); }
+.sidebar-links a { color: var(--color-primary); }
+.sidebar-links a:hover { text-decoration: underline; }
+[data-theme="dark"] .sidebar-links { border-top-color: var(--color-gray-700); }
+[data-theme="dark"] .sidebar-links-label { color: var(--color-gray-400); }
+[data-theme="dark"] .sidebar-links a { color: var(--color-blue-400); }
+
+/* =========================================================================
+   Homepage sections and employment layout (year column, then details)
+   ========================================================================= */
+.home-main { max-width: 56rem; }
+.home-section { padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid var(--color-gray-200); }
+.home-main > :last-child, .home-grid > .home-section { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+.home-grid { display: grid; gap: 2rem; padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid var(--color-gray-200); }
+@media (min-width: 1024px) { .home-grid { grid-template-columns: 1fr 1fr; } }
+[data-theme="dark"] .home-section, [data-theme="dark"] .home-grid { border-bottom-color: var(--color-gray-700); }
+
+.emp-list > li + li { margin-top: 1.25rem; }
+.emp-org { font-weight: 600; color: var(--color-gray-900); margin-bottom: 0.25rem; }
+.emp-row { display: grid; grid-template-columns: 6.5rem 1fr; column-gap: 1rem; }
+.emp-row + .emp-row { margin-top: 0.5rem; }
 .emp-years { color: var(--color-gray-500); font-variant-numeric: tabular-nums; white-space: nowrap; }
-[data-theme="dark"] .emp-years { color: var(--color-gray-400); }
+.emp-role { color: var(--color-gray-800); }
 .emp-unit { color: var(--color-gray-600); }
+@media (max-width: 480px) { .emp-row { grid-template-columns: 1fr; } .emp-years { font-size: 0.8125rem; } }
+[data-theme="dark"] .emp-org { color: var(--color-gray-100); }
+[data-theme="dark"] .emp-years { color: var(--color-gray-400); }
+[data-theme="dark"] .emp-role { color: var(--color-gray-200); }
 [data-theme="dark"] .emp-unit { color: var(--color-gray-400); }

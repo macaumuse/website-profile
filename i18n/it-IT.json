@@ -5,11 +5,9 @@
         "publications": "Pubblicazioni",
         "teaching": "Didattica",
         "research": "Ricerca",
-        "slides": "Slide",
-        "team": "Team (Cercasi collaboratori)"
+        "slides": "Slide"
     },
     "sections": {
-        "research": "Interessi di ricerca",
         "employment": "Percorso professionale",
         "education": "Formazione",
         "grants": "Fondi e borse di ricerca ottenuti",
@@ -34,10 +32,6 @@
     },
     "slides": {
         "loading": "Caricamento delle slide..."
-    },
-    "research": {
-        "interests": "Interessi di ricerca:",
-        "fields": "Microeconomia applicata, economia internazionale, economia dell'ambiente, economia politica e del diritto, reti economiche, econometria, visione artificiale, grafi di conoscenza, GAN."
     },
     "employment": {
         "zju": {
@@ -163,69 +157,5 @@
     "placement": {
         "wang": "Wang, Youan (Università di Xiamen, Professore Assistant, 2022)",
         "yu": "Yu, Luping (Università di Xiamen, Professore Assistant, 2021)"
-    },
-    "team": {
-        "title": "Reclutamento di postdoc",
-        "section1": {
-            "title": "1. Presentazione del team di supervisori",
-            "content": "Questo team di reclutamento è composto da professori della Scuola Internazionale di Specializzazione di Shenzhen dell'Università Tsinghua, dell'Università di Hong Kong e delle facoltà di Economia, Management e Informatica dell'Università del Queensland. Il team possiede una solida base di ricerca e ricchi risultati accademici in statistica, informatica, fintech e data science. I suoi membri si dedicano da tempo alla ricerca interdisciplinare su apprendimento automatico, sicurezza dei dati, elaborazione del linguaggio naturale, reti neurali su grafi, modellazione statistica e applicazioni fintech. La rete di collaborazione copre diverse facoltà dell'Università Tsinghua, dell'Università di Hong Kong e dell'Università del Queensland, con una solida base per la cooperazione internazionale. I membri del team hanno pubblicato numerosi contributi di alto livello nelle migliori riviste e conferenze accademiche internazionali, come MS, ECMA, AER, JoE, JFE, JLE, JFQA, JIE, JRSS B, JMLR, CVPR, KDD, TKDE, TOIS, ICDE, SIGIR, ACL, AAAI, ICML e TPAMI, e hanno ricevuto diversi premi accademici."
-        },
-        "section2": {
-            "title": "2. Posizioni e direzioni di ricerca",
-            "content": "Si prevede di reclutare congiuntamente ricercatori postdoc, con attenzione a studiosi eccellenti con formazione in matematica, statistica, informatica e campi interdisciplinari affini. I candidati devono possedere solide competenze matematiche, statistiche e di programmazione, ed esperienza nella pubblicazione di articoli scientifici in riviste o conferenze internazionali di alto livello.",
-            "directions": "Le principali direzioni di ricerca includono, tra le altre:",
-            "list": {
-                "item1": "Fintech e sistemi decisionali intelligenti: ricerca sull'applicazione dell'apprendimento automatico, dell'analisi di big data, della blockchain e di altre tecnologie al trading finanziario intelligente, alla previsione dei rischi, alla valutazione del credito e ad altri ambiti.",
-                "item2": "Sicurezza dei dati finanziari e privacy computing: attenzione a metodi all'avanguardia come l'archiviazione sicura dei dati, la protezione della privacy e il federated learning per dati finanziari e sensibili in contesti interistituzionali e transfrontalieri.",
-                "item3": "Data science e metodologia dell'IA: attenzione alla data science in senso ampio, all'apprendimento automatico statistico, all'ottimizzazione degli algoritmi di deep learning, all'IA interpretabile e ad altre ricerche metodologiche teoriche, nonché alle loro applicazioni in finanza, sanità, genomica biologica e altri campi.",
-                "item4": "Rischio sistemico e analisi delle reti finanziarie: uso di reti neurali su grafi, modellazione di reti multilivello e altri metodi per studiare i meccanismi di contagio del rischio e l'evoluzione della struttura di rete all'interno del sistema finanziario.",
-                "item5": "Elaborazione del linguaggio naturale e text mining: sviluppo e applicazione di metodi NLP per estrarre informazioni chiave da dati non strutturati come testi finanziari, dati di opinione e documenti politici, a servizio dell'allerta precoce e del supporto alle decisioni.",
-                "item6": "Altre tematiche interdisciplinari di frontiera: inclusi, tra gli altri, sicurezza dei dati, calcolo multiparte, equità algoritmica, etica e governance dell'IA, data mining sanitario e altre direzioni."
-            }
-        },
-        "section3": {
-            "title": "3. Requisiti di candidatura",
-            "list": {
-                "item1": "Dottorato conseguito di recente o in fase di conseguimento in scienze della gestione, statistica, informatica o discipline affini.",
-                "item2": "Articoli scientifici pubblicati nelle direzioni di ricerca sopra indicate, come primo autore o autore corrispondente, in riviste o conferenze internazionali di alto livello in statistica, informatica o scienze della gestione (riviste o conferenze di categoria B). Saranno prioritari i candidati con pubblicazioni in riviste e conferenze di categoria A.",
-                "item3": "Buon spirito di squadra e capacità comunicative, in grado di condurre ricerca in autonomia e di contribuire alla guida di altri."
-            }
-        },
-        "section4": {
-            "title": "4. Retribuzione e benefici",
-            "list": {
-                "item1": "Pacchetto retributivo competitivo, da concordare.",
-                "item2": "Premi competitivi per pubblicazioni e brevetti, fino al 50% della retribuzione annua.",
-                "item3": "Supporto competitivo per trasferte nazionali e internazionali.",
-                "item4": "Buone condizioni e ambiente di ricerca, con sostegno ai postdoc nella candidatura a vari progetti di ricerca e attività di scambio accademico internazionale.",
-                "item5": "Durante il periodo postdoc è possibile usufruire di risorse di ricerca e benefici di diverse università partner, ed estendere la collaborazione con i supervisori.",
-                "item6": "Sulla base delle prestazioni e dei risultati di ricerca, vengono offerte ulteriori opportunità di sviluppo professionale, come segnalazioni a università partner."
-            }
-        },
-        "section5": {
-            "title": "5. Modalità di candidatura",
-            "content": "Si prega di inviare i seguenti documenti a wangzigan@sz.tsinghua.edu.cn, indicando nell'oggetto «Candidatura postdoc + Nome + Direzione di ricerca»:",
-            "list": {
-                "item1": "Curriculum vitae (nome, formazione, esperienza lavorativa, esperienza di ricerca, pubblicazioni, ecc.).",
-                "item2": "Proposta di ricerca (descrivere brevemente la direzione e i contenuti proposti, massimo 3 pagine).",
-                "item3": "Contatti di due referenti (nome, istituzione, ruolo, indirizzo e-mail, ecc.).",
-                "item4": "Altro materiale di supporto (articoli scientifici pubblicati e brevetti)."
-            }
-        },
-        "section6": {
-            "title": "6. Sede di lavoro",
-            "list": {
-                "item1": "Scuola Internazionale di Specializzazione di Shenzhen dell'Università Tsinghua",
-                "item2": "Istituto di ricerca di Shenzhen della Scuola di Economia e Management dell'Università Tsinghua",
-                "item3": "Campus di Shenzhen della HKU Business School",
-                "item4": "Campus St Lucia dell'Università del Queensland"
-            }
-        },
-        "section7": {
-            "title": "7. Contatti",
-            "contact": "Contatto: Professor Wang",
-            "email": "E-mail: wangzigan@sz.tsinghua.edu.cn",
-            "welcome": "Diamo il benvenuto a eccellenti neodottori interessati a svolgere ricerca in questi ambiti: unisciti al nostro team per esplorare insieme le tematiche di frontiera e promuovere lo sviluppo della ricerca accademica e delle applicazioni pratiche."
-        }
     }
 }

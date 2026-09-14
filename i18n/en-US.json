@@ -5,11 +5,9 @@
         "publications": "Publications",
         "teaching": "Teaching",
         "research": "Research",
-        "slides": "Slides",
-        "team": "Team (We Are Hiring)"
+        "slides": "Slides"
     },
     "sections": {
-        "research": "Research Interests",
         "employment": "Employment",
         "education": "Education",
         "grants": "Awarded Research Funds and Grants",
@@ -34,10 +32,6 @@
     },
     "slides": {
         "loading": "Loading slides..."
-    },
-    "research": {
-        "interests": "Research Interests:",
-        "fields": "Applied Microeconomics, International Economics, Environmental Economics, Political and Law Economics, Economic Networks, Econometrics, Computer Vision, Knowledge Graph, GAN."
     },
     "employment": {
         "zju": {
@@ -163,69 +157,5 @@
     "placement": {
         "wang": "Wang, Youan (Xiamen University, Assistant Professor, 2022)",
         "yu": "Yu, Luping (Xiamen University, Assistant Professor, 2021)"
-    },
-    "team": {
-        "title": "Postdoctoral Recruitment",
-        "section1": {
-            "title": "1. Supervisor Team Introduction",
-            "content": "This recruitment team consists of professors from Tsinghua University Shenzhen Graduate School, University of Hong Kong, and Queensland University's Schools of Economics, Business, and Computer Science. The team has a solid research foundation and rich academic achievements in statistics, computer science, fintech, and data science. Team members have long been committed to interdisciplinary research in machine learning, data security, natural language processing, graph neural networks, statistical modeling, and fintech applications. The collaboration network covers multiple colleges across Tsinghua University, University of Hong Kong, and Queensland University, with a strong foundation for international cooperation. Team members have published numerous high-level papers in top international academic journals and conferences such as MS, ECMA, AER, JoE, JFE, JLE, JFQA, JIE, JRSS B, JMLR, CVPR, KDD, TKDE, TOIS, ICDE, SIGIR, ACL, AAAI, ICML, TPAMI, and have received multiple academic awards."
-        },
-        "section2": {
-            "title": "2. Recruitment Positions and Research Directions",
-            "content": "We plan to jointly recruit postdoctoral researchers, focusing on outstanding scholars with backgrounds in mathematics, statistics, computer science, and related interdisciplinary fields. Applicants must have solid mathematical, statistical, and programming abilities, with experience publishing academic papers in top international journals or conferences.",
-            "directions": "Main research directions include but are not limited to:",
-            "list": {
-                "item1": "Fintech and Intelligent Decision Systems: Research on the application of machine learning, big data analysis, blockchain and other technologies in intelligent financial trading, risk prediction, credit assessment, and other fields.",
-                "item2": "Financial Data Security and Privacy Computing: Focus on cutting-edge methods such as secure data storage, privacy protection, and federated learning for financial and sensitive data in cross-institutional and cross-border environments.",
-                "item3": "Data Science and AI Methodology: Focus on broader data science, statistical machine learning, deep learning algorithm optimization, interpretable AI and other theoretical method research and their applications in finance, healthcare, biological genomics, and other fields.",
-                "item4": "Systemic Risk and Financial Network Analysis: Use graph neural networks, multi-layer network modeling and other methods to study risk contagion mechanisms and network structure evolution within the financial system.",
-                "item5": "Natural Language Processing and Text Data Mining: Develop and apply NLP methods to mine key information from unstructured data such as financial texts, public opinion data, and policy documents, serving risk warning and decision support.",
-                "item6": "Other Interdisciplinary Frontier Issues: Including but not limited to data security, multi-party computation, algorithm fairness, AI ethics and governance, medical health data mining, and other directions."
-            }
-        },
-        "section3": {
-            "title": "3. Application Requirements",
-            "list": {
-                "item1": "Recently obtained or about to obtain a doctoral degree in management science, statistics, computer science, or related majors.",
-                "item2": "Published academic papers in the above research directions as first author or corresponding author in top international statistics, computer science, or management science journals or conferences (B journals or B conferences). Applicants with publications in A journals and A conferences will be given priority.",
-                "item3": "Good teamwork spirit and communication skills, able to conduct research independently and assist in guiding others."
-            }
-        },
-        "section4": {
-            "title": "4. Compensation and Benefits",
-            "list": {
-                "item1": "Competitive salary package, specific negotiable.",
-                "item2": "Competitive paper publication and patent application bonuses, up to 50% of annual salary.",
-                "item3": "Competitive domestic and international travel support.",
-                "item4": "Good research conditions and environment, supporting postdocs to apply for various research projects and international academic exchange activities.",
-                "item5": "During the postdoctoral period, you can enjoy research resources and welfare benefits from multiple partner universities, and expand cooperation with supervisors.",
-                "item6": "Based on postdoctoral work performance and research results, provide further career development opportunities, such as recommendations to partner universities."
-            }
-        },
-        "section5": {
-            "title": "5. Application Method",
-            "content": "Please send the following application materials to wangzigan@sz.tsinghua.edu.cn, with email subject \"Postdoctoral Application + Name + Research Direction\":",
-            "list": {
-                "item1": "Resume (including name, educational background, work experience, research experience, published papers, etc.).",
-                "item2": "Research proposal (briefly describe the proposed research direction and content, no more than 3 pages).",
-                "item3": "Contact information of two referees (including name, affiliation, position, email address, etc.).",
-                "item4": "Other supporting materials (published academic papers and patents)."
-            }
-        },
-        "section6": {
-            "title": "6. Work Location",
-            "list": {
-                "item1": "Tsinghua University Shenzhen International Graduate School",
-                "item2": "Tsinghua University School of Economics and Management Shenzhen Research Institute",
-                "item3": "University of Hong Kong Business School Shenzhen Campus",
-                "item4": "Queensland University St Lucia Campus"
-            }
-        },
-        "section7": {
-            "title": "7. Contact Information",
-            "contact": "Contact: Professor Wang",
-            "email": "Email: wangzigan@sz.tsinghua.edu.cn",
-            "welcome": "We welcome outstanding doctoral graduates interested in conducting research in related fields to join our team, explore frontier issues together, and promote the development of academic research and practical applications."
-        }
     }
 }

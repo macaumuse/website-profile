@@ -5,11 +5,9 @@
         "publications": "Publicaciones",
         "teaching": "Docencia",
         "research": "Investigación",
-        "slides": "Diapositivas",
-        "team": "Equipo (Estamos contratando)"
+        "slides": "Diapositivas"
     },
     "sections": {
-        "research": "Intereses de investigación",
         "employment": "Experiencia profesional",
         "education": "Formación académica",
         "grants": "Fondos y subvenciones de investigación obtenidos",
@@ -34,10 +32,6 @@
     },
     "slides": {
         "loading": "Cargando diapositivas..."
-    },
-    "research": {
-        "interests": "Intereses de investigación:",
-        "fields": "Microeconomía aplicada, economía internacional, economía ambiental, economía política y del derecho, redes económicas, econometría, visión por computadora, grafos de conocimiento, GAN."
     },
     "employment": {
         "zju": {
@@ -163,69 +157,5 @@
     "placement": {
         "wang": "Wang, Youan (Universidad de Xiamen, Profesor Titular, 2022)",
         "yu": "Yu, Luping (Universidad de Xiamen, Profesor Titular, 2021)"
-    },
-    "team": {
-        "title": "Contratación de investigadores postdoctorales",
-        "section1": {
-            "title": "1. Presentación del equipo de supervisores",
-            "content": "Este equipo de contratación está formado por profesores de la Escuela de Posgrado Internacional de Shenzhen de la Universidad de Tsinghua, la Universidad de Hong Kong y las facultades de Economía, Empresa y Ciencias de la Computación de la Universidad de Queensland. El equipo cuenta con una sólida base de investigación y ricos logros académicos en estadística, ciencias de la computación, fintech y ciencia de datos. Sus miembros se han dedicado durante mucho tiempo a la investigación interdisciplinaria en aprendizaje automático, seguridad de datos, procesamiento del lenguaje natural, redes neuronales de grafos, modelización estadística y aplicaciones fintech. La red de colaboración abarca varias facultades de la Universidad de Tsinghua, la Universidad de Hong Kong y la Universidad de Queensland, con una sólida base para la cooperación internacional. Los miembros del equipo han publicado numerosos artículos de alto nivel en las mejores revistas y conferencias académicas internacionales, como MS, ECMA, AER, JoE, JFE, JLE, JFQA, JIE, JRSS B, JMLR, CVPR, KDD, TKDE, TOIS, ICDE, SIGIR, ACL, AAAI, ICML y TPAMI, y han recibido múltiples premios académicos."
-        },
-        "section2": {
-            "title": "2. Puestos y direcciones de investigación",
-            "content": "Se planea contratar conjuntamente investigadores postdoctorales, con foco en investigadores destacados con formación en matemáticas, estadística, ciencias de la computación y campos interdisciplinarios afines. Los solicitantes deben poseer sólidas capacidades matemáticas, estadísticas y de programación, y contar con experiencia en la publicación de artículos académicos en revistas o conferencias internacionales de primer nivel.",
-            "directions": "Las principales direcciones de investigación incluyen, entre otras:",
-            "list": {
-                "item1": "Fintech y sistemas de decisión inteligentes: investigación sobre la aplicación del aprendizaje automático, el análisis de macrodatos, la cadena de bloques y otras tecnologías en la negociación financiera inteligente, la predicción de riesgos, la evaluación crediticia y otros ámbitos.",
-                "item2": "Seguridad de datos financieros y computación que preserva la privacidad: enfoque en métodos de vanguardia como el almacenamiento seguro de datos, la protección de la privacidad y el aprendizaje federado para datos financieros y sensibles en entornos interinstitucionales y transfronterizos.",
-                "item3": "Ciencia de datos y metodología de la IA: enfoque en la ciencia de datos en sentido amplio, el aprendizaje automático estadístico, la optimización de algoritmos de aprendizaje profundo, la IA interpretable y otra investigación metodológica teórica, así como sus aplicaciones en finanzas, sanidad, genómica biológica y otros campos.",
-                "item4": "Riesgo sistémico y análisis de redes financieras: uso de redes neuronales de grafos, modelización de redes multicapa y otros métodos para estudiar los mecanismos de contagio del riesgo y la evolución de la estructura de redes dentro del sistema financiero.",
-                "item5": "Procesamiento del lenguaje natural y minería de datos textuales: desarrollo y aplicación de métodos de PLN para extraer información clave de datos no estructurados como textos financieros, datos de opinión pública y documentos políticos, al servicio de la alerta temprana y el apoyo a la decisión.",
-                "item6": "Otras cuestiones interdisciplinarias de frontera: incluyendo, entre otras, la seguridad de datos, el cálculo multiparte, la equidad algorítmica, la ética y gobernanza de la IA, la minería de datos de salud y otras direcciones."
-            }
-        },
-        "section3": {
-            "title": "3. Requisitos de solicitud",
-            "list": {
-                "item1": "Doctorado obtenido recientemente o a punto de obtenerse en ciencias de la gestión, estadística, ciencias de la computación o disciplinas afines.",
-                "item2": "Artículos académicos publicados en las direcciones de investigación mencionadas, como primer autor o autor de correspondencia, en revistas o conferencias internacionales de primer nivel en estadística, ciencias de la computación o ciencias de la gestión (revistas o conferencias de categoría B). Se dará prioridad a los solicitantes con publicaciones en revistas y conferencias de categoría A.",
-                "item3": "Buen espíritu de equipo y habilidades de comunicación, con capacidad para investigar de forma independiente y ayudar en la orientación de otros."
-            }
-        },
-        "section4": {
-            "title": "4. Remuneración y prestaciones",
-            "list": {
-                "item1": "Paquete salarial competitivo, a negociar.",
-                "item2": "Primas competitivas por publicaciones y solicitudes de patentes, de hasta el 50 % del salario anual.",
-                "item3": "Apoyo competitivo para viajes nacionales e internacionales.",
-                "item4": "Buenas condiciones y entorno de investigación, con apoyo a los postdoctorandos para solicitar diversos proyectos de investigación y actividades de intercambio académico internacional.",
-                "item5": "Durante la etapa posdoctoral se pueden disfrutar de recursos de investigación y prestaciones de varias universidades asociadas, y ampliar la colaboración con los supervisores.",
-                "item6": "Según el desempeño y los resultados de investigación, se ofrecen oportunidades de desarrollo profesional adicionales, como recomendaciones a universidades asociadas."
-            }
-        },
-        "section5": {
-            "title": "5. Forma de solicitud",
-            "content": "Envíe la siguiente documentación a wangzigan@sz.tsinghua.edu.cn, con el asunto «Solicitud de Postdoctorado + Nombre + Dirección de investigación»:",
-            "list": {
-                "item1": "Currículum vitae (incluyendo nombre, formación académica, experiencia laboral, experiencia investigadora, artículos publicados, etc.).",
-                "item2": "Propuesta de investigación (describa brevemente la dirección y el contenido propuestos, máximo 3 páginas).",
-                "item3": "Datos de contacto de dos personas de referencia (incluyendo nombre, institución, cargo, correo electrónico, etc.).",
-                "item4": "Otros materiales de apoyo (artículos académicos publicados y patentes)."
-            }
-        },
-        "section6": {
-            "title": "6. Lugar de trabajo",
-            "list": {
-                "item1": "Escuela de Posgrado Internacional de Shenzhen de la Universidad de Tsinghua",
-                "item2": "Instituto de Investigación de Shenzhen de la Escuela de Economía y Gestión de la Universidad de Tsinghua",
-                "item3": "Campus de Shenzhen de la HKU Business School",
-                "item4": "Campus St Lucia de la Universidad de Queensland"
-            }
-        },
-        "section7": {
-            "title": "7. Información de contacto",
-            "contact": "Contacto: Profesor Wang",
-            "email": "Correo electrónico: wangzigan@sz.tsinghua.edu.cn",
-            "welcome": "Damos la bienvenida a los excelentes doctores interesados en investigar en estos campos: únanse a nuestro equipo para explorar juntos cuestiones de frontera e impulsar el desarrollo de la investigación académica y sus aplicaciones prácticas."
-        }
     }
 }

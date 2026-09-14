@@ -58,10 +58,6 @@
                     -->
                     <span class="text-gray-400">|</span>
                     <a href="slides.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.slides">Slides</a>
-                    <!-- Team link hidden per request; restore by uncommenting the two lines below
-                    <span class="text-gray-400">|</span>
-                    <a href="team.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.team">Team (We Are Hiring)</a>
-                    -->
                     <span class="text-gray-400">|</span>
                     <select id="langSelect" aria-label="Language selection" class="px-2 py-1 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-blue-400 focus:border-transparent">
                         ${Object.entries(languages).map(([code, name]) => `<option value="${code}">${name}</option>`).join('')}
@@ -79,26 +75,15 @@
                             </svg>
                         </button>
                     </div>
-                    <span class="text-gray-400">|</span>
-                    <a href="https://github.com/LaoWangLab/LaoWangLab.github.io" target="_blank" class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100" title="GitHub">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                        </svg>
-                    </a>
                 </nav>
             </div>
         </header>`,
 
         sidebar: `
-        <aside class="w-full md:w-80 lg:w-96 bg-gray-50 dark:bg-gray-800 p-6 md:border-r border-gray-300 dark:border-gray-700">
+        <aside class="site-sidebar w-full md:w-80 lg:w-96 bg-gray-50 dark:bg-gray-800 p-6 md:border-r border-gray-300 dark:border-gray-700">
+            <div class="sidebar-sticky">
             <img src="assets/avatar.webp" alt="Zigan Wang - Professor, Zhejiang University" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="lazy" width="192" height="192" data-original="assets/avatar.webp" data-hover="assets/smile.webp">
             <div class="space-y-4">
-                <div>
-                    <p class="text-sm leading-relaxed">
-                        <strong class="block mb-2" data-i18n="research.interests">Research Interests:</strong> 
-                        <span data-i18n="research.fields">Applied Microeconomics, International Economics, Environmental Economics, Political and Law Economics, Economic Networks, Econometrics, Computer Vision, Knowledge Graph, GAN.</span>
-                    </p>
-                </div>
                 <div id="contact-emails" class="space-y-2">
                     <a href="mailto:wangzigan@zju.edu.cn" class="contact-email text-primary dark:text-blue-400 hover:underline flex items-center text-sm">
                         <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
@@ -106,7 +91,13 @@
                         </svg>
                         <span class="contact-email-text">wangzigan@zju.edu.cn</span>
                     </a>
-                </div>
+                <ul class="sidebar-links">
+                    <li><span class="sidebar-links-label">ORCID</span><a href="https://orcid.org/0000-0002-1311-1493" target="_blank" rel="noopener">0000-0002-1311-1493</a></li>
+                    <li><span class="sidebar-links-label">Google Scholar</span><a href="https://scholar.google.com/citations?user=BiX-nnEAAAAJ" target="_blank" rel="noopener">BiX-nnEAAAAJ</a></li>
+                    <li><span class="sidebar-links-label">SSRN</span><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2196855" target="_blank" rel="noopener">2196855</a></li>
+                    <li><span class="sidebar-links-label">DBLP</span><a href="https://dblp.org/pid/278/3865.html" target="_blank" rel="noopener">278/3865</a></li>
+                </ul>
+            </div>
             </div>
         </aside>`,
 
@@ -512,8 +503,8 @@
             slot.appendChild(createNode('div', 'emp-org', strings.name));
             extra.roles.forEach(role => {
                 const row = createNode('div', 'emp-row');
-                row.appendChild(createNode('span', 'emp-role', strings[role.key]));
                 row.appendChild(createNode('span', 'emp-years', role.years));
+                row.appendChild(createNode('div', 'emp-role', strings[role.key]));
                 slot.appendChild(row);
             });
             slot.hidden = false;

@@ -5,11 +5,9 @@
         "publications": "Publikationen",
         "teaching": "Lehre",
         "research": "Forschung",
-        "slides": "Vortragsfolien",
-        "team": "Team (Wir stellen ein)"
+        "slides": "Vortragsfolien"
     },
     "sections": {
-        "research": "Forschungsinteressen",
         "employment": "Beruflicher Werdegang",
         "education": "Ausbildung",
         "grants": "Eingeworbene Forschungsmittel und Stipendien",
@@ -34,10 +32,6 @@
     },
     "slides": {
         "loading": "Folien werden geladen..."
-    },
-    "research": {
-        "interests": "Forschungsinteressen:",
-        "fields": "Angewandte Mikroökonomie, internationale Wirtschaft, Umweltökonomie, politische und Rechtsökonomie, ökonomische Netzwerke, Ökonometrie, Computer Vision, Wissensgraphen, GANs."
     },
     "employment": {
         "zju": {
@@ -163,69 +157,5 @@
     "placement": {
         "wang": "Wang, Youan (Xiamen-Universität, Assistant Professor, 2022)",
         "yu": "Yu, Luping (Xiamen-Universität, Assistant Professor, 2021)"
-    },
-    "team": {
-        "title": "Postdoc-Rekrutierung",
-        "section1": {
-            "title": "1. Vorstellung des Betreuungsteams",
-            "content": "Das Rekrutierungsteam besteht aus Professorinnen und Professoren der Shenzhen International Graduate School der Tsinghua-Universität, der Universität Hongkong sowie der Wirtschafts-, Business- und Informatikfakultäten der University of Queensland. Das Team verfügt über eine solide Forschungsgrundlage und reiche akademische Erfolge in Statistik, Informatik, FinTech und Data Science. Die Teammitglieder widmen sich seit Langem interdisziplinärer Forschung in den Bereichen maschinelles Lernen, Datensicherheit, Verarbeitung natürlicher Sprache, graphische neuronale Netze, statistische Modellierung und FinTech-Anwendungen. Das Kooperationsnetzwerk erstreckt sich über mehrere Fakultäten der Tsinghua-Universität, der Universität Hongkong und der University of Queensland und bietet eine solide Grundlage für internationale Zusammenarbeit. Die Teammitglieder haben zahlreiche hochrangige Beiträge in führenden internationalen Fachzeitschriften und auf Konferenzen wie MS, ECMA, AER, JoE, JFE, JLE, JFQA, JIE, JRSS B, JMLR, CVPR, KDD, TKDE, TOIS, ICDE, SIGIR, ACL, AAAI, ICML und TPAMI veröffentlicht und mehrfach akademische Auszeichnungen erhalten."
-        },
-        "section2": {
-            "title": "2. Ausgeschriebene Stellen und Forschungsrichtungen",
-            "content": "Wir beabsichtigen, gemeinsam Postdoktorandinnen und Postdoktoranden zu rekrutieren, mit Schwerpunkt auf herausragenden Wissenschaftlerinnen und Wissenschaftlern mit Hintergrund in Mathematik, Statistik, Informatik und verwandten interdisziplinären Fächern. Bewerber müssen über solide mathematische, statistische und Programmierkenntnisse verfügen und Erfahrung in der Veröffentlichung wissenschaftlicher Beiträge in führenden internationalen Zeitschriften oder auf Konferenzen mitbringen.",
-            "directions": "Die wichtigsten Forschungsrichtungen umfassen unter anderem:",
-            "list": {
-                "item1": "FinTech und intelligente Entscheidungssysteme: Forschung zur Anwendung von maschinellem Lernen, Big-Data-Analyse, Blockchain und anderen Technologien in den Bereichen intelligenter Finanzhandel, Risikoprognose, Bonitätsbewertung und weitere Felder.",
-                "item2": "Sicherheit von Finanzdaten und Privacy Computing: Schwerpunkt auf modernsten Methoden wie sicherer Datenspeicherung, Datenschutz und föderiertem Lernen für Finanz- und sensiblen Daten in institutionsübergreifenden und grenzüberschreitenden Umgebungen.",
-                "item3": "Data Science und KI-Methodik: Schwerpunkt auf breiterer Data Science, statistischem maschinellem Lernen, Optimierung von Deep-Learning-Algorithmen, erklärbare KI und anderen theoretischen Methoden sowie deren Anwendungen in Finanzen, Gesundheitswesen, biologischer Genomik und weiteren Bereichen.",
-                "item4": "Systemisches Risiko und Analyse von Finanznetzwerken: Einsatz graphischer neuronaler Netze, mehrschichtiger Netzwerkmodellierung und anderer Methoden zur Untersuchung von Risikoansteckungsmechanismen und der Entwicklung von Netzwerkstrukturen im Finanzsystem.",
-                "item5": "Verarbeitung natürlicher Sprache und Textdaten-Mining: Entwicklung und Anwendung von NLP-Methoden zur Gewinnung wichtiger Informationen aus unstrukturierten Daten wie Finanztexten, Stimmungsdaten und Politikdokumenten für Frühwarnung und Entscheidungsunterstützung.",
-                "item6": "Weitere interdisziplinäre Schwerpunktthemen: einschließlich, aber nicht beschränkt auf Datensicherheit, Mehrparteienberechnung, Algorithmenfairness, KI-Ethik und Governance sowie Mining von Gesundheitsdaten und andere Richtungen."
-            }
-        },
-        "section3": {
-            "title": "3. Bewerbungsvoraussetzungen",
-            "list": {
-                "item1": "Kürzlich erworbener oder in Kürze zu erwerbender Doktortitel in Wirtschaftswissenschaften, Statistik, Informatik oder verwandten Fächern.",
-                "item2": "Veröffentlichte wissenschaftliche Beiträge in den genannten Forschungsrichtungen als Erstautor oder korrespondierender Autor in führenden internationalen Zeitschriften oder auf Konferenzen der Statistik, Informatik oder Wirtschaftswissenschaften (B-Zeitschriften oder B-Konferenzen). Bewerber mit Veröffentlichungen in A-Zeitschriften und auf A-Konferenzen werden bevorzugt berücksichtigt.",
-                "item3": "Ausgeprägter Teamgeist und Kommunikationsstärke, Fähigkeit, selbstständig zu forschen und andere bei ihrer Arbeit zu unterstützen."
-            }
-        },
-        "section4": {
-            "title": "4. Vergütung und Leistungen",
-            "list": {
-                "item1": "Wettbewerbsfähiges Vergütungspaket, Einzelheiten verhandelbar.",
-                "item2": "Attraktive Prämien für Publikationen und Patentanmeldungen, bis zu 50 % des Jahresgehalts.",
-                "item3": "Wettbewerbsfähige Unterstützung für In- und Auslandsreisen.",
-                "item4": "Gute Forschungsbedingungen und -umgebung, Unterstützung bei der Beantragung von Forschungsprojekten und internationalen akademischen Austauschaktivitäten.",
-                "item5": "Während der Postdoc-Zeit können Forschungsressourcen und Leistungen mehrerer Partneruniversitäten genutzt und die Zusammenarbeit mit den Betreuenden ausgebaut werden.",
-                "item6": "Auf der Grundlage der Arbeitsleistung und Forschungsergebnisse werden weitere Karriereentwicklungsmöglichkeiten angeboten, etwa Empfehlungen an Partneruniversitäten."
-            }
-        },
-        "section5": {
-            "title": "5. Bewerbungsverfahren",
-            "content": "Bitte senden Sie die folgenden Unterlagen an wangzigan@sz.tsinghua.edu.cn mit dem Betreff „Postdoc-Bewerbung + Name + Forschungsrichtung“:",
-            "list": {
-                "item1": "Lebenslauf (mit Name, Ausbildung, Berufserfahrung, Forschungserfahrung, Publikationen usw.).",
-                "item2": "Forschungsvorhaben (kurze Darstellung der geplanten Forschungsrichtung und des Inhalts, höchstens 3 Seiten).",
-                "item3": "Kontaktdaten von zwei Referenzpersonen (Name, Institution, Position, E-Mail-Adresse usw.).",
-                "item4": "Weitere Nachweise (veröffentlichte wissenschaftliche Beiträge und Patente)."
-            }
-        },
-        "section6": {
-            "title": "6. Arbeitsort",
-            "list": {
-                "item1": "Shenzhen International Graduate School der Tsinghua-Universität",
-                "item2": "Shenzhen Research Institute der School of Economics and Management, Tsinghua-Universität",
-                "item3": "Shenzhen-Campus der HKU Business School",
-                "item4": "St.-Lucia-Campus der University of Queensland"
-            }
-        },
-        "section7": {
-            "title": "7. Kontakt",
-            "contact": "Kontakt: Professor Wang",
-            "email": "E-Mail: wangzigan@sz.tsinghua.edu.cn",
-            "welcome": "Wir heißen herausragende Doktorabsolventinnen und -absolventen, die in den genannten Bereichen forschen möchten, herzlich willkommen — lassen Sie uns gemeinsam aktuelle Fragestellungen erforschen und die Entwicklung von Wissenschaft und Praxis voranbringen."
-        }
     }
 }
