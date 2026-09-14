@@ -1,8 +1,9 @@
 {
-    "title": "Professeur associé à l'Université Tsinghua",
+    "title": "Professeur, Université du Zhejiang",
     "nav": {
         "home": "Accueil",
         "publications": "Publications",
+        "teaching": "Enseignement",
         "research": "Recherche",
         "slides": "Diaporamas",
         "team": "Équipe (recrutement en cours)"
@@ -39,22 +40,27 @@
         "fields": "Microéconomie appliquée, économie internationale, économie de l'environnement, économie politique et juridique, réseaux économiques, économétrie, vision par ordinateur, graphes de connaissances, GAN."
     },
     "employment": {
-        "tsinghua": {
-            "title": "Professeur associé (titulaire), 2023 – aujourd'hui",
-            "school1": "École supérieure internationale de Shenzhen, Université Tsinghua",
-            "school2": "École d'économie et de gestion, Université Tsinghua (double affectation)"
+        "zju": {
+            "name": "Université du Zhejiang, Chine",
+            "title": "Professeur",
+            "unit": "Département de finance, École d'économie"
         },
-        "uq": {
-            "title": "Professeur associé honoraire d'économie, 2023-2026",
-            "school": "Université du Queensland"
+        "tsinghua": {
+            "name": "Université Tsinghua, Chine",
+            "title": "Professeur associé",
+            "unit1": "École d'économie et de gestion",
+            "unit2": "École supérieure internationale de Shenzhen",
+            "unit3": "Institut d'économie et de gestion de Shenzhen (à titre associé)",
+            "deputy": "Directeur adjoint",
+            "center": "Centre de recherche en finance computationnelle"
         },
         "hku": {
-            "title": "Professeur assistant, 2015-2023",
-            "school": "HKU Business School, Université de Hong Kong"
+            "name": "Université de Hong Kong, Chine",
+            "title": "Professeur assistant, HKU Business School"
         },
         "suny": {
-            "title": "Professeur adjoint (pendant le doctorat), 2014",
-            "school": "Université d'État de New York"
+            "name": "Université d'État de New York, États-Unis",
+            "title": "Professeur auxiliaire, Département de finance"
         }
     },
     "education": {

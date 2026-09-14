@@ -1,8 +1,9 @@
 {
-    "title": "Außerordentlicher Professor an der Tsinghua-Universität",
+    "title": "Professor, Zhejiang-Universität",
     "nav": {
         "home": "Startseite",
         "publications": "Publikationen",
+        "teaching": "Lehre",
         "research": "Forschung",
         "slides": "Vortragsfolien",
         "team": "Team (Wir stellen ein)"
@@ -39,22 +40,27 @@
         "fields": "Angewandte Mikroökonomie, internationale Wirtschaft, Umweltökonomie, politische und Rechtsökonomie, ökonomische Netzwerke, Ökonometrie, Computer Vision, Wissensgraphen, GANs."
     },
     "employment": {
-        "tsinghua": {
-            "title": "Außerordentlicher Professor (mit Tenure), 2023 – heute",
-            "school1": "Shenzhen International Graduate School, Tsinghua-Universität",
-            "school2": "School of Economics and Management, Tsinghua-Universität (Doppelberufung)"
+        "zju": {
+            "name": "Zhejiang-Universität, China",
+            "title": "Professor",
+            "unit": "Department of Finance, School of Economics"
         },
-        "uq": {
-            "title": "Ehrenamtlicher außerordentlicher Professor für Volkswirtschaftslehre, 2023–2026",
-            "school": "University of Queensland"
+        "tsinghua": {
+            "name": "Tsinghua-Universität, China",
+            "title": "Außerordentlicher Professor",
+            "unit1": "School of Economics and Management",
+            "unit2": "Shenzhen International Graduate School",
+            "unit3": "Shenzhen Institute of Economics and Management (assoziiert)",
+            "deputy": "Stellvertretender Direktor",
+            "center": "Research Center for Computational Finance"
         },
         "hku": {
-            "title": "Assistant Professor, 2015–2023",
-            "school": "HKU Business School, Universität Hongkong"
+            "name": "Universität Hongkong, China",
+            "title": "Assistant Professor, HKU Business School"
         },
         "suny": {
-            "title": "Gastprofessor (während der Promotion), 2014",
-            "school": "State University of New York"
+            "name": "State University of New York, USA",
+            "title": "Adjunct Professor, Department of Finance"
         }
     },
     "education": {

@@ -97,220 +97,197 @@
       <div id="sidebar"></div>
 
       <main class="flex-1 min-w-0 p-6 md:p-8 lg:p-10 bg-white dark:bg-gray-800">
-        <div class="max-w-4xl">
 
-          <!-- Intro: research interests and author identifiers -->
-          <div class="pub-intro">
-            <section class="pub-intro-card">
-              <h2 class="pub-intro-title" data-i18n="sections.current_interests">Current Research Interests</h2>
-              <ul class="pub-interests">
-                <li>AI algorithm, AI for business, econometrics</li>
-                <li>International economics (FX, cross-country regulation)</li>
-                <li>Empirical corporate finance, applied microeconomics, applied econometrics</li>
-                <li>Environmental economics, corporate ESG</li>
-              </ul>
-            </section>
+        <section class="mb-8">
+          <h2 class="text-xl font-bold text-section dark:text-blue-400 mb-4" data-i18n="sections.current_interests">Current Research Interests</h2>
+          <ul class="list-disc ml-6 space-y-2">
+            <li>AI algorithm, AI for business, econometrics</li>
+            <li>International economics (FX, cross-country regulation)</li>
+            <li>Empirical corporate finance, applied microeconomics, applied econometrics</li>
+            <li>Environmental economics, corporate ESG</li>
+          </ul>
+        </section>
 
-            <section class="pub-intro-card">
-              <h2 class="pub-intro-title" data-i18n="sections.author_identifiers">Author Identifiers</h2>
-              <ul class="pub-ids">
-                <li><span class="pub-id-label">DBLP</span><a href="https://dblp.org/pid/278/3865.html" target="_blank" rel="noopener">278/3865</a></li>
-                <li><span class="pub-id-label">ORCID</span><a href="https://orcid.org/0000-0002-1311-1493" target="_blank" rel="noopener">0000-0002-1311-1493</a></li>
-                <li><span class="pub-id-label">Google Scholar</span><a href="https://scholar.google.com/citations?user=BiX-nnEAAAAJ" target="_blank" rel="noopener">BiX-nnEAAAAJ</a></li>
-              </ul>
-            </section>
-          </div>
+        <section class="mb-8">
+          <h2 class="text-xl font-bold text-section dark:text-blue-400 mb-4" data-i18n="sections.author_identifiers">Author Identifiers</h2>
+          <ul class="list-disc ml-6 space-y-2">
+            <li>DBLP: <a href="https://dblp.org/pid/278/3865.html" target="_blank" rel="noopener" class="text-primary dark:text-blue-400 hover:underline">278/3865</a></li>
+            <li>ORCID: <a href="https://orcid.org/0000-0002-1311-1493" target="_blank" rel="noopener" class="text-primary dark:text-blue-400 hover:underline">0000-0002-1311-1493</a></li>
+            <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BiX-nnEAAAAJ" target="_blank" rel="noopener" class="text-primary dark:text-blue-400 hover:underline">BiX-nnEAAAAJ</a></li>
+          </ul>
+        </section>
 
-          <!-- Field switcher -->
-          <div class="pub-tabs" role="tablist" aria-label="Publication field">
-            <button type="button" class="pub-tab" role="tab" id="tab-econ" data-tab="econ" aria-controls="panel-econ" aria-selected="true">
-              <span data-i18n="sections.pub_tab_econ">Economics / Finance / Business</span>
-              <span class="pub-tab-count">14</span>
-            </button>
-            <button type="button" class="pub-tab" role="tab" id="tab-cs" data-tab="cs" aria-controls="panel-cs" aria-selected="false" tabindex="-1">
-              <span data-i18n="sections.pub_tab_cs">Computer Science / AI</span>
-              <span class="pub-tab-count">6</span>
-            </button>
-          </div>
-
-          <!-- ================= Economics / Finance / Business ================= -->
-          <section class="pub-panel" role="tabpanel" id="panel-econ" aria-labelledby="tab-econ" tabindex="0">
-            <h2 class="section-title" data-i18n="sections.pub_econ">Peer-reviewed Publications in Economics and Finance Journals</h2>
-
-            <dl class="pub-legend">
-              <dt>ABS</dt><dd>UK Chartered Association of Business Schools journal ranking</dd>
-              <dt>PHBS50</dt><dd>Peking University HSBC Business School 50 core journals</dd>
-              <dt>ABDC</dt><dd>Australian Business Deans Council journal ranking</dd>
-              <dt>UTD24</dt><dd>University of Texas at Dallas 24 leading business journals</dd>
-            </dl>
-
-            <ol class="pub-list pub-list-numbered">
-              <li class="pub-item">
-                <a class="pub-title" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3893274" target="_blank" rel="noopener">Political Connections, Financial Constraints, and Corporate Taxation</a>
-                <p class="pub-authors">with Ke Na, Terry Shevlin and Youan Wang</p>
-                <p class="pub-venue"><em>Journal of Financial and Quantitative Analysis</em>, forthcoming</p>
-                <p class="pub-badges"><span class="badge">ABS 4</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0927539825000623" target="_blank" rel="noopener">On the Profitability of Influential Carry Trades Strategies: Data Snooping Bias and Post-Publication Performance</a>
-                <p class="pub-authors">with Yan Li, Po-Hsuan Hsu and Mark P. Taylor</p>
-                <p class="pub-venue"><em>Journal of Empirical Finance</em>, forthcoming</p>
-                <p class="pub-badges"><span class="badge">ABS 3</span><span class="badge">ABDC A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://academic.oup.com/rof/article-abstract/28/6/1833/7717974" target="_blank" rel="noopener">The Power of the People: Labor Unions and Corporate Social Responsibility</a>
-                <p class="pub-authors">with Amanda Heitz and Youan Wang</p>
-                <p class="pub-venue"><em>Review of Finance</em>, 28(6), 2024, 1833–1879</p>
-                <p class="pub-badges"><span class="badge">ABS 4</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0927539824000331" target="_blank" rel="noopener">Do Share Repurchases Facilitate Movement Towards Target Capital Structure? International Evidence</a>
-                <p class="pub-authors">with Qie Yin and Luping Yu</p>
-                <p class="pub-venue"><em>Journal of Empirical Finance</em>, 77 (2024): 101498</p>
-                <p class="pub-badges"><span class="badge">ABS 3</span><span class="badge">ABDC A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/media-sentiment-and-currency-reversals/84CEB4F2EEE1521C3C694F547AC35A0B" target="_blank" rel="noopener">Media Sentiment and Currency Reversals</a>
-                <p class="pub-authors">with Ilias Filippou and Mark P. Taylor</p>
-                <p class="pub-venue"><em>Journal of Financial and Quantitative Analysis</em>, 59(3), 2024, 1401–1429</p>
-                <p class="pub-badges"><span class="badge">ABS 4</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0261560624000299" target="_blank" rel="noopener">The Out-of-Sample Performance of Carry Trades</a>
-                <p class="pub-authors">with Po-Hsuan Hsu, Yan Li and Mark P. Taylor</p>
-                <p class="pub-venue"><em>Journal of International Money and Finance</em>, 143 (2024): 103042</p>
-                <p class="pub-badges"><span class="badge">ABS 3</span><span class="badge">ABDC A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0304407622000471" target="_blank" rel="noopener">Estimation and Inference of Treatment Effects with L2-Boosting in High-Dimensional Settings</a>
-                <p class="pub-authors">with Jannis Kueck, Ye Luo and Martin Spindler</p>
-                <p class="pub-venue"><em>Journal of Econometrics</em>, 234(2), 2023, 714–731</p>
-                <p class="pub-badges"><span class="badge">ABS 4</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3931" target="_blank" rel="noopener">Corporate Political Connections and Favorable Environmental Regulatory Enforcement</a>
-                <p class="pub-authors">with Amanda Heitz and Youan Wang</p>
-                <p class="pub-venue"><em>Management Science</em>, 69(12), 2023, 7838–7859</p>
-                <p class="pub-badges"><span class="badge badge-top">ABS 4*</span><span class="badge badge-top">UTD24</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0929119922000955" target="_blank" rel="noopener">The Role of Financial Constraints in Firm Investment Under Pollution Abatement Regulation</a>
-                <p class="pub-authors">with Tri Vi Dang and Youan Wang</p>
-                <p class="pub-venue"><em>Journal of Corporate Finance</em>, 76 (2022): 102252</p>
-                <p class="pub-badges"><span class="badge">ABS 4</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0022199622000393" target="_blank" rel="noopener">Currency Volatility and Global Technological Innovation</a>
-                <p class="pub-authors">with Po-Hsuan Hsu, Mark P. Taylor and Qi Xu</p>
-                <p class="pub-venue"><em>Journal of International Economics</em>, 137 (2022): 103607</p>
-                <p class="pub-badges"><span class="badge">ABS 4</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0261560621000838" target="_blank" rel="noopener">The Real Effects of Exchange Rate Risk on Corporate Investment: International Evidence</a>
-                <p class="pub-authors">with Mark P. Taylor and Qi Xu</p>
-                <p class="pub-venue"><em>Journal of International Money and Finance</em>, 117 (2021)</p>
-                <p class="pub-badges"><span class="badge">ABS 3</span><span class="badge">ABDC A</span></p>
-                <p class="pub-note">Media coverage: Mingpao Daily (Finance, Education), Hong Kong Commercial Daily</p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0304405X2030283X" target="_blank" rel="noopener">Real Effects of Share Repurchases Legalization on Corporate Behaviors</a>
-                <p class="pub-authors">with Qie Yin and Luping Yu</p>
-                <p class="pub-venue"><em>Journal of Financial Economics</em>, 140(1) (2021): 197–219</p>
-                <p class="pub-badges"><span class="badge badge-top">ABS 4*</span><span class="badge badge-top">UTD24</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3428" target="_blank" rel="noopener">Bank Networks and Acquisitions</a>
-                <p class="pub-authors">with Ross Levine and Chen Lin</p>
-                <p class="pub-venue"><em>Management Science</em>, 66(11) (2020): 5216–5241</p>
-                <p class="pub-badges"><span class="badge badge-top">ABS 4*</span><span class="badge badge-top">UTD24</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0022199616300472" target="_blank" rel="noopener">Technical Trading: Is it still Beating the Foreign Exchange Market?</a>
-                <p class="pub-authors">with Po-Hsuan Hsu and Mark P. Taylor</p>
-                <p class="pub-venue"><em>Journal of International Economics</em>, 102 (2016): 188–208</p>
-                <p class="pub-badges"><span class="badge">ABS 4</span><span class="badge">PHBS50</span><span class="badge">ABDC A*</span></p>
-              </li>
-            </ol>
-
-            <h3 class="pub-subheading" data-i18n="sections.book">Book Chapter</h3>
-            <ul class="pub-list">
-              <li class="pub-item">
-                <span class="pub-title">An Overview of Corporate Governance, Policies and Public Listing of Chinese State-owned Enterprises Reform</span>
-                <p class="pub-venue">In <a href="https://books.google.com/books?hl=zh-CN&amp;lr=&amp;id=5qK6CgAAQBAJ&amp;oi=fnd&amp;pg=PR5&amp;dq=Corporate+Governance+and+Corporate+Social+Responsibility:+Emerging+Markets+Focus&amp;ots=09POFNr84k&amp;sig=HbCINjv-RoSweZUVtbRkUwNxxZQ" target="_blank" rel="noopener"><em>Corporate Governance and Corporate Social Responsibility: Emerging Markets Focus</em></a>, edited by S. Boubaker and D.K Nguyen. World Scientific Publishing, July 2014</p>
-              </li>
-            </ul>
-          </section>
-
-          <!-- ================= Computer Science / AI ================= -->
-          <section class="pub-panel" role="tabpanel" id="panel-cs" aria-labelledby="tab-cs" tabindex="0" hidden>
-            <h2 class="section-title" data-i18n="sections.pub_cs">Peer-reviewed Publications in Computer Science Conferences</h2>
-
-            <dl class="pub-legend">
-              <dt>CCF</dt><dd>China Computer Federation</dd>
-              <dt>I-CORE</dt><dd>International Computing Research &amp; Education</dd>
-              <dt>TH-CPL</dt><dd>Tsinghua Conference &amp; Journal Publication List</dd>
-              <dt>*</dt><dd>Corresponding author and project leader</dd>
-            </dl>
-
-            <ol class="pub-list pub-list-numbered">
-              <li class="pub-item">
-                <a class="pub-title" href="https://icml.cc/virtual/2026/poster/64591" target="_blank" rel="noopener">VideoTrace-R1: Long Video-based Retrieval-Augmented Generation via Reinforcement Learning</a>
-                <p class="pub-authors">Zongsheng Cao, Anran Liu, Jun Xie, Feng Chen, Lang Chen, Jing Li, Zhepeng Wang, <strong>Zigan Wang</strong>*</p>
-                <p class="pub-venue"><em>ICML 2026</em></p>
-                <p class="pub-badges"><span class="badge badge-top">CCF-A</span><span class="badge badge-top">I-CORE-A*</span><span class="badge">TH-CPL-A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <span class="pub-title">Spectral Modeling of Periodic Phenomena in Scientific Data via Fourier–Galerkin Representation</span>
-                <p class="pub-authors">Isabella Li, <strong>Zigan Wang</strong>*</p>
-                <p class="pub-venue"><em>WSDM 2026</em></p>
-                <p class="pub-badges"><span class="badge">CCF-B</span><span class="badge">I-CORE-A</span><span class="badge">TH-CPL-A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://arxiv.org/abs/2511.00628" target="_blank" rel="noopener">AgentGit: A Version Control Framework for Reliable and Scalable LLM-Powered Multi-Agent Systems</a>
-                <p class="pub-authors">Yang Li, Siqi Ping, Xiyu Chen, Xiaojian Qi, <strong>Zigan Wang</strong>, Ye Luo, Xiaowei Zhang*</p>
-                <p class="pub-venue"><em>AAAI 2026</em> Workshop (WMAC)</p>
-                <p class="pub-badges"><span class="badge badge-top">CCF-A</span><span class="badge badge-top">I-CORE-A*</span><span class="badge">TH-CPL-A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://openreview.net/forum?id=qUjePavW48&amp;noteId=u4lKbPPTfh" target="_blank" rel="noopener">ViG-RAG: Video-aware Graph Retrieval-Augmented Generation via Temporal and Semantic Hybrid Reasoning</a>
-                <p class="pub-authors">Zongsheng Cao, Anran Liu, Yangfan He, Jing Li, Bo Zhang, <strong>Zigan Wang</strong>*</p>
-                <p class="pub-venue"><em>AAAI 2026</em></p>
-                <p class="pub-badges"><span class="badge badge-top">CCF-A</span><span class="badge badge-top">I-CORE-A*</span><span class="badge">TH-CPL-A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://openaccess.thecvf.com/content/CVPR2024W/SAIAD/html/Li_AdvDenoise_Fast_Generation_Framework_of_Universal_and_Robust_Adversarial_Patches_CVPRW_2024_paper.html" target="_blank" rel="noopener">AdvDenoise: Fast Generation Framework of Universal and Robust Adversarial Patches Using Denoise</a>
-                <p class="pub-authors">Jing Li, <strong>Zigan Wang</strong>, Jinliang Li*</p>
-                <p class="pub-venue"><em>CVPR 2024</em> Workshop</p>
-                <p class="pub-badges"><span class="badge badge-top">CCF-A</span><span class="badge badge-top">I-CORE-A*</span><span class="badge">TH-CPL-A</span></p>
-              </li>
-
-              <li class="pub-item">
-                <a class="pub-title" href="https://doi.org/10.1145/3637528.3671997" target="_blank" rel="noopener">DiffusionE: Reasoning on Knowledge Graphs via Diffusion-Based Graph Neural Networks</a>
-                <p class="pub-authors">Zongsheng Cao, Jing Li, <strong>Zigan Wang</strong>*, Jinliang Li*</p>
-                <p class="pub-venue"><em>KDD 2024</em></p>
-                <p class="pub-badges"><span class="badge badge-top">CCF-A</span><span class="badge badge-top">I-CORE-A*</span><span class="badge">TH-CPL-A</span></p>
-              </li>
-            </ol>
-          </section>
-
+        <!-- Field switch -->
+        <div class="pub-switch" role="tablist" aria-label="Publication field">
+          <button type="button" class="pub-switch-btn" role="tab" id="tab-econ" data-tab="econ" aria-controls="panel-econ" aria-selected="true">
+            <svg class="pub-switch-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"/></svg>
+            <span data-i18n="sections.pub_tab_econ">Economics / Finance / Business</span>
+            <span class="pub-switch-count">14</span>
+          </button>
+          <button type="button" class="pub-switch-btn" role="tab" id="tab-cs" data-tab="cs" aria-controls="panel-cs" aria-selected="false" tabindex="-1">
+            <svg class="pub-switch-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z"/></svg>
+            <span data-i18n="sections.pub_tab_cs">Computer Science / AI</span>
+            <span class="pub-switch-count">6</span>
+          </button>
         </div>
+
+        <!-- ================= Economics / Finance / Business ================= -->
+        <section class="pub-panel mb-8" role="tabpanel" id="panel-econ" aria-labelledby="tab-econ">
+          <h2 class="text-xl font-bold text-section dark:text-blue-400 mb-2" data-i18n="sections.pub_econ">Peer-reviewed Publications in Economics and Finance Journals</h2>
+          <ul class="pub-legend">
+            <li>ABS: UK Chartered Association of Business Schools journal ranking</li>
+            <li>PHBS50: Peking University HSBC Business School 50 core journals</li>
+            <li>ABDC: Australian Business Deans Council journal ranking</li>
+            <li>UTD24: University of Texas at Dallas 24 leading business journals</li>
+          </ul>
+
+          <ol class="pub-list list-decimal ml-6 space-y-4">
+            <li>
+              <a class="pub-title" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3893274" target="_blank" rel="noopener">Political Connections, Financial Constraints, and Corporate Taxation</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Ke Na, Terry Shevlin and Youan Wang</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of Financial and Quantitative Analysis</em>, forthcoming</span>
+              <span class="rank-note">(ABS 4, PHBS50, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0927539825000623" target="_blank" rel="noopener">On the Profitability of Influential Carry Trades Strategies: Data Snooping Bias and Post-Publication Performance</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Yan Li, Po-Hsuan Hsu and Mark P. Taylor</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of Empirical Finance</em>, forthcoming</span>
+              <span class="rank-note">(ABS 3, ABDC A)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://academic.oup.com/rof/article-abstract/28/6/1833/7717974" target="_blank" rel="noopener">The Power of the People: Labor Unions and Corporate Social Responsibility</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Amanda Heitz and Youan Wang</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Review of Finance</em>, 28(6), 2024, 1833–1879</span>
+              <span class="rank-note">(ABS 4, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0927539824000331" target="_blank" rel="noopener">Do Share Repurchases Facilitate Movement Towards Target Capital Structure? International Evidence</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Qie Yin and Luping Yu</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of Empirical Finance</em>, 77 (2024): 101498</span>
+              <span class="rank-note">(ABS 3, ABDC A)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/media-sentiment-and-currency-reversals/84CEB4F2EEE1521C3C694F547AC35A0B" target="_blank" rel="noopener">Media Sentiment and Currency Reversals</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Ilias Filippou and Mark P. Taylor</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of Financial and Quantitative Analysis</em>, 59(3), 2024, 1401–1429</span>
+              <span class="rank-note">(ABS 4, PHBS50, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0261560624000299" target="_blank" rel="noopener">The Out-of-Sample Performance of Carry Trades</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Po-Hsuan Hsu, Yan Li and Mark P. Taylor</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of International Money and Finance</em>, 143 (2024): 103042</span>
+              <span class="rank-note">(ABS 3, ABDC A)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0304407622000471" target="_blank" rel="noopener">Estimation and Inference of Treatment Effects with L2-Boosting in High-Dimensional Settings</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Jannis Kueck, Ye Luo and Martin Spindler</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of Econometrics</em>, 234(2), 2023, 714–731</span>
+              <span class="rank-note">(ABS 4, PHBS50, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3931" target="_blank" rel="noopener">Corporate Political Connections and Favorable Environmental Regulatory Enforcement</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Amanda Heitz and Youan Wang</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Management Science</em>, 69(12), 2023, 7838–7859</span>
+              <span class="rank-note">(ABS 4*, UTD24, PHBS50, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0929119922000955" target="_blank" rel="noopener">The Role of Financial Constraints in Firm Investment Under Pollution Abatement Regulation</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Tri Vi Dang and Youan Wang</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of Corporate Finance</em>, 76 (2022): 102252</span>
+              <span class="rank-note">(ABS 4, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0022199622000393" target="_blank" rel="noopener">Currency Volatility and Global Technological Innovation</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Po-Hsuan Hsu, Mark P. Taylor and Qi Xu</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of International Economics</em>, 137 (2022): 103607</span>
+              <span class="rank-note">(ABS 4, PHBS50, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0261560621000838" target="_blank" rel="noopener">The Real Effects of Exchange Rate Risk on Corporate Investment: International Evidence</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Mark P. Taylor and Qi Xu</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of International Money and Finance</em>, 117 (2021)</span>
+              <span class="rank-note">(ABS 3, ABDC A)</span><br>
+              <span class="rank-note">Media coverage: Mingpao Daily (Finance, Education), Hong Kong Commercial Daily</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0304405X2030283X" target="_blank" rel="noopener">Real Effects of Share Repurchases Legalization on Corporate Behaviors</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Qie Yin and Luping Yu</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of Financial Economics</em>, 140(1) (2021): 197–219</span>
+              <span class="rank-note">(ABS 4*, UTD24, PHBS50, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3428" target="_blank" rel="noopener">Bank Networks and Acquisitions</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Ross Levine and Chen Lin</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Management Science</em>, 66(11) (2020): 5216–5241</span>
+              <span class="rank-note">(ABS 4*, UTD24, PHBS50, ABDC A*)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0022199616300472" target="_blank" rel="noopener">Technical Trading: Is it still Beating the Foreign Exchange Market?</a><br>
+              <span class="text-gray-600 dark:text-gray-400">with Po-Hsuan Hsu and Mark P. Taylor</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>Journal of International Economics</em>, 102 (2016): 188–208</span>
+              <span class="rank-note">(ABS 4, PHBS50, ABDC A*)</span>
+            </li>
+          </ol>
+
+          <h3 class="pub-subheading" data-i18n="sections.book">Book Chapter</h3>
+          <ul class="list-disc ml-6">
+            <li>
+              <span class="pub-title-plain">An Overview of Corporate Governance, Policies and Public Listing of Chinese State-owned Enterprises Reform</span><br>
+              <span class="text-gray-600 dark:text-gray-400">In <a href="https://books.google.com/books?hl=zh-CN&amp;lr=&amp;id=5qK6CgAAQBAJ&amp;oi=fnd&amp;pg=PR5&amp;dq=Corporate+Governance+and+Corporate+Social+Responsibility:+Emerging+Markets+Focus&amp;ots=09POFNr84k&amp;sig=HbCINjv-RoSweZUVtbRkUwNxxZQ" target="_blank" rel="noopener" class="text-primary dark:text-blue-400 hover:underline"><em>Corporate Governance and Corporate Social Responsibility: Emerging Markets Focus</em></a>, edited by S. Boubaker and D.K Nguyen, World Scientific Publishing, July 2014</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- ================= Computer Science / AI ================= -->
+        <section class="pub-panel mb-8" role="tabpanel" id="panel-cs" aria-labelledby="tab-cs" hidden>
+          <h2 class="text-xl font-bold text-section dark:text-blue-400 mb-2" data-i18n="sections.pub_cs">Peer-reviewed Publications in Computer Science Conferences</h2>
+          <ul class="pub-legend">
+            <li>CCF: China Computer Federation</li>
+            <li>I-CORE: International Computing Research &amp; Education</li>
+            <li>TH-CPL: Tsinghua Conference &amp; Journal Publication List</li>
+            <li>* Corresponding author and project leader</li>
+          </ul>
+
+          <ol class="pub-list list-decimal ml-6 space-y-4">
+            <li>
+              <a class="pub-title" href="https://icml.cc/virtual/2026/poster/64591" target="_blank" rel="noopener">VideoTrace-R1: Long Video-based Retrieval-Augmented Generation via Reinforcement Learning</a><br>
+              <span class="pub-authors text-gray-600 dark:text-gray-400">Zongsheng Cao, Anran Liu, Jun Xie, Feng Chen, Lang Chen, Jing Li, Zhepeng Wang, <strong>Zigan Wang</strong>*</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>ICML 2026</em></span>
+              <span class="rank-note">(CCF-A, I-CORE-A*, TH-CPL-A)</span>
+            </li>
+            <li>
+              <span class="pub-title-plain">Spectral Modeling of Periodic Phenomena in Scientific Data via Fourier–Galerkin Representation</span><br>
+              <span class="pub-authors text-gray-600 dark:text-gray-400">Isabella Li, <strong>Zigan Wang</strong>*</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>WSDM 2026</em></span>
+              <span class="rank-note">(CCF-B, I-CORE-A, TH-CPL-A)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://arxiv.org/abs/2511.00628" target="_blank" rel="noopener">AgentGit: A Version Control Framework for Reliable and Scalable LLM-Powered Multi-Agent Systems</a><br>
+              <span class="pub-authors text-gray-600 dark:text-gray-400">Yang Li, Siqi Ping, Xiyu Chen, Xiaojian Qi, <strong>Zigan Wang</strong>, Ye Luo, Xiaowei Zhang*</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>AAAI 2026</em> Workshop (WMAC)</span>
+              <span class="rank-note">(CCF-A, I-CORE-A*, TH-CPL-A)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://openreview.net/forum?id=qUjePavW48&amp;noteId=u4lKbPPTfh" target="_blank" rel="noopener">ViG-RAG: Video-aware Graph Retrieval-Augmented Generation via Temporal and Semantic Hybrid Reasoning</a><br>
+              <span class="pub-authors text-gray-600 dark:text-gray-400">Zongsheng Cao, Anran Liu, Yangfan He, Jing Li, Bo Zhang, <strong>Zigan Wang</strong>*</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>AAAI 2026</em></span>
+              <span class="rank-note">(CCF-A, I-CORE-A*, TH-CPL-A)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://openaccess.thecvf.com/content/CVPR2024W/SAIAD/html/Li_AdvDenoise_Fast_Generation_Framework_of_Universal_and_Robust_Adversarial_Patches_CVPRW_2024_paper.html" target="_blank" rel="noopener">AdvDenoise: Fast Generation Framework of Universal and Robust Adversarial Patches Using Denoise</a><br>
+              <span class="pub-authors text-gray-600 dark:text-gray-400">Jing Li, <strong>Zigan Wang</strong>, Jinliang Li*</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>CVPR 2024</em> Workshop</span>
+              <span class="rank-note">(CCF-A, I-CORE-A*, TH-CPL-A)</span>
+            </li>
+            <li>
+              <a class="pub-title" href="https://doi.org/10.1145/3637528.3671997" target="_blank" rel="noopener">DiffusionE: Reasoning on Knowledge Graphs via Diffusion-Based Graph Neural Networks</a><br>
+              <span class="pub-authors text-gray-600 dark:text-gray-400">Zongsheng Cao, Jing Li, <strong>Zigan Wang</strong>*, Jinliang Li*</span><br>
+              <span class="text-gray-600 dark:text-gray-400"><em>KDD 2024</em></span>
+              <span class="rank-note">(CCF-A, I-CORE-A*, TH-CPL-A)</span>
+            </li>
+          </ol>
+        </section>
+
       </main>
     </div>
 
@@ -320,9 +297,9 @@
   <div id="back-to-top"></div>
   <script src="main.js"></script>
   <script>
-    // Publications field switcher: two tabs, deep-linkable via #econ / #cs
+    // Publications field switch: two buttons, deep-linkable via #econ / #cs
     (function () {
-      var tabs = Array.prototype.slice.call(document.querySelectorAll('.pub-tab'));
+      var tabs = Array.prototype.slice.call(document.querySelectorAll('.pub-switch-btn'));
       if (!tabs.length) return;
       function panelOf(tab) { return document.getElementById(tab.getAttribute('aria-controls')); }
 
@@ -338,8 +315,8 @@
       }
 
       tabs.forEach(function (tab, i) {
-        var count = panelOf(tab).querySelectorAll('.pub-list-numbered > li').length;
-        var badge = tab.querySelector('.pub-tab-count');
+        var count = panelOf(tab).querySelectorAll('.pub-list > li').length;
+        var badge = tab.querySelector('.pub-switch-count');
         if (badge && count) badge.textContent = count;
 
         tab.addEventListener('click', function () { select(tab.getAttribute('data-tab'), false, true); });
@@ -364,8 +341,8 @@
       }
       window.addEventListener('hashchange', fromHash);
       fromHash();
-      // Enable tab transitions only after the initial state is painted (no slide on deep links)
-      requestAnimationFrame(function () { requestAnimationFrame(function () { document.querySelector('.pub-tabs').classList.add('is-ready'); }); });
+      // Enable button transitions only after the initial state is painted
+      requestAnimationFrame(function () { requestAnimationFrame(function () { document.querySelector('.pub-switch').classList.add('is-ready'); }); });
     })();
   </script>
 </body>

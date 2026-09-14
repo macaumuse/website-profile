@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Zigan Wang">
-    <meta name="description" content="Presentation slides by Zigan Wang - Associate Professor at Tsinghua University">
+    <meta name="description" content="Presentation slides by Zigan Wang - Professor, Zhejiang University">
     <meta name="keywords" content="Zigan Wang, Presentations, Slides, Economics, Finance, Research">
     <meta name="robots" content="index, follow">
     <meta name="language" content="en-US">
@@ -22,7 +22,7 @@
     <meta property="twitter:description" content="Presentation slides by Zigan Wang">
     <meta property="twitter:image" content="https://wangzigan.com/assets/avatar.webp">
 
-    <title>Slides - Zigan Wang | Tsinghua University</title>
+    <title>Slides - Zigan Wang | Zhejiang University</title>
 
     <link rel="dns-prefetch" href="https://github.com">
 
@@ -84,6 +84,8 @@
                     return;
                 }
 
+                slides.sort((a, b) => b.date.localeCompare(a.date));
+
                 const slidesByYear = {};
                 slides.forEach(slide => {
                     const year = slide.date.substring(0, 4);
@@ -108,7 +110,8 @@
                     `;
 
                     slidesByYear[year].forEach(slide => {
-                        const dateObj = new Date(slide.date);
+                        const [yy, mm, dd] = slide.date.split('-').map(Number);
+                        const dateObj = new Date(yy, mm - 1, dd);
                         const day = dateObj.getDate();
                         const month = dateObj.toLocaleDateString('en-US', { month: 'short' });
                         const hasHtml = slide.hasHtml !== false;
@@ -123,7 +126,7 @@
                             <a href="${cardHref}" target="_blank" class="group block p-4 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-blue-400 hover:shadow-sm transition-all duration-200">
                                 <div class="flex items-center gap-4">
                                     <div class="min-w-0 flex-1">
-                                        <h4 class="text-base font-semibold text-gray-900 dark:text-gray-100 truncate group-hover:text-primary dark:group-hover:text-blue-400 transition-colors" title="${slide.title}">
+                                        <h4 class="text-base font-semibold text-gray-900 dark:text-gray-100 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors" title="${slide.title}">
                                             ${slide.title || 'Untitled Presentation'}
                                         </h4>
                                         <div class="flex items-center mt-1 text-xs text-gray-500 dark:text-gray-400">

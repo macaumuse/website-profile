@@ -1,8 +1,9 @@
 {
-    "title": "Professore Associato presso l'Università Tsinghua",
+    "title": "Professore ordinario, Università di Zhejiang",
     "nav": {
         "home": "Home",
         "publications": "Pubblicazioni",
+        "teaching": "Didattica",
         "research": "Ricerca",
         "slides": "Slide",
         "team": "Team (Cercasi collaboratori)"
@@ -39,22 +40,27 @@
         "fields": "Microeconomia applicata, economia internazionale, economia dell'ambiente, economia politica e del diritto, reti economiche, econometria, visione artificiale, grafi di conoscenza, GAN."
     },
     "employment": {
-        "tsinghua": {
-            "title": "Professore Associato (con tenure), 2023 - presente",
-            "school1": "Scuola Internazionale di Specializzazione di Shenzhen, Università Tsinghua",
-            "school2": "Scuola di Economia e Management, Università Tsinghua (doppio incarico)"
+        "zju": {
+            "name": "Università di Zhejiang, Cina",
+            "title": "Professore ordinario",
+            "unit": "Dipartimento di Finanza, Scuola di Economia"
         },
-        "uq": {
-            "title": "Professore Associato Onorario di Economia, 2023-2026",
-            "school": "Università del Queensland"
+        "tsinghua": {
+            "name": "Università Tsinghua, Cina",
+            "title": "Professore associato",
+            "unit1": "Scuola di Economia e Management",
+            "unit2": "Scuola Internazionale di Specializzazione di Shenzhen",
+            "unit3": "Istituto di Economia e Management di Shenzhen (incarico aggiuntivo)",
+            "deputy": "Vicedirettore",
+            "center": "Centro di ricerca per la finanza computazionale"
         },
         "hku": {
-            "title": "Professore Assistant, 2015-2023",
-            "school": "HKU Business School, Università di Hong Kong"
+            "name": "Università di Hong Kong, Cina",
+            "title": "Assistant Professor, HKU Business School"
         },
         "suny": {
-            "title": "Professore a contratto (durante il dottorato), 2014",
-            "school": "Università Statale di New York"
+            "name": "Università Statale di New York, USA",
+            "title": "Professore a contratto, Dipartimento di Finanza"
         }
     },
     "education": {

@@ -5,7 +5,7 @@
         networkTimeout: 10000,
         retryAttempts: 3,
         retryDelay: 1000,
-        translationsCacheKey: 'translations_cache_v3',
+        translationsCacheKey: 'translations_cache_v4',
         translationsCacheExpiry: 7 * 24 * 60 * 60 * 1000,
         defaultLang: 'en-US',
         rtlLanguages: ['ar-SA', 'he-IL']
@@ -44,20 +44,24 @@
                     <h1 class="text-3xl font-bold text-primary-dark dark:text-gray-100 mb-1">
                         <a href="index.html" class="hover:underline">Zigan Wang</a>
                     </h1>
-                    <p class="text-gray-700 dark:text-gray-300" data-i18n="title">Associate Professor at Tsinghua University</p>
+                    <p class="text-gray-700 dark:text-gray-300" data-i18n="title">Professor, Zhejiang University</p>
                 </div>
                 <nav class="flex flex-wrap items-center gap-2 text-sm">
                     <a href="index.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.home">Home</a>
                     <span class="text-gray-400">|</span>
                     <a href="pub.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.publications">Publications</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="teaching.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.teaching">Teaching</a>
                     <!-- Research link hidden per request; restore by uncommenting the two lines below
                     <span class="text-gray-400">|</span>
                     <a href="/research/assetbubble" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.research">Research</a>
                     -->
                     <span class="text-gray-400">|</span>
                     <a href="slides.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.slides">Slides</a>
+                    <!-- Team link hidden per request; restore by uncommenting the two lines below
                     <span class="text-gray-400">|</span>
                     <a href="team.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.team">Team (We Are Hiring)</a>
+                    -->
                     <span class="text-gray-400">|</span>
                     <select id="langSelect" aria-label="Language selection" class="px-2 py-1 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-blue-400 focus:border-transparent">
                         ${Object.entries(languages).map(([code, name]) => `<option value="${code}">${name}</option>`).join('')}
@@ -87,7 +91,7 @@
 
         sidebar: `
         <aside class="w-full md:w-80 lg:w-96 bg-gray-50 dark:bg-gray-800 p-6 md:border-r border-gray-300 dark:border-gray-700">
-            <img src="assets/avatar.webp" alt="Professor Zigan Wang - Associate Professor at Tsinghua University" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="lazy" width="192" height="192" data-original="assets/avatar.webp" data-hover="assets/smile.webp">
+            <img src="assets/avatar.webp" alt="Zigan Wang - Professor, Zhejiang University" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="lazy" width="192" height="192" data-original="assets/avatar.webp" data-hover="assets/smile.webp">
             <div class="space-y-4">
                 <div>
                     <p class="text-sm leading-relaxed">
@@ -95,12 +99,12 @@
                         <span data-i18n="research.fields">Applied Microeconomics, International Economics, Environmental Economics, Political and Law Economics, Economic Networks, Econometrics, Computer Vision, Knowledge Graph, GAN.</span>
                     </p>
                 </div>
-                <div>
-                    <a href="mailto:wangzigan@sz.tsinghua.edu.cn" class="text-primary dark:text-blue-400 hover:underline inline-flex items-center text-sm">
+                <div id="contact-emails" class="space-y-2">
+                    <a href="mailto:wangzigan@zju.edu.cn" class="contact-email text-primary dark:text-blue-400 hover:underline flex items-center text-sm">
                         <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/>
                         </svg>
-                        Email
+                        <span class="contact-email-text">wangzigan@zju.edu.cn</span>
                     </a>
                 </div>
             </div>
@@ -276,6 +280,7 @@
     }
 
     function updateTranslations() {
+        renderRegionContent();
         const elements = document.querySelectorAll('[data-i18n]');
         const translations = state.translations[state.currentLang];
         
@@ -432,9 +437,93 @@
         });
     }
 
+    // ---------- Region-specific profile content ----------
+    // Some profile details are shown only to visitors outside mainland China, Hong Kong,
+    // Macau and Taiwan, and are fetched from assets/intl.json only for those visitors.
+    // The visitor's country comes from Cloudflare's /cdn-cgi/trace on this domain;
+    // if it cannot be determined, only the base profile is shown.
+    const region = {
+        baseOnlyCountries: ['CN', 'HK', 'MO', 'TW'],
+        cacheKey: 'visitor_country',
+        data: null
+    };
+
+    async function detectCountry() {
+        try {
+            const cached = sessionStorage.getItem(region.cacheKey);
+            if (cached) return cached;
+        } catch (e) { /* storage unavailable */ }
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 4000);
+        try {
+            const response = await fetch('/cdn-cgi/trace', { cache: 'no-store', signal: controller.signal });
+            if (!response.ok) return null;
+            const match = (await response.text()).match(/^loc=([A-Z]{2})$/m);
+            if (!match) return null;
+            try { sessionStorage.setItem(region.cacheKey, match[1]); } catch (e) { /* storage unavailable */ }
+            return match[1];
+        } catch (error) {
+            return null;
+        } finally {
+            clearTimeout(timeoutId);
+        }
+    }
+
+    async function initRegionContent() {
+        const country = await detectCountry();
+        if (!country || country === 'XX' || country === 'T1' || region.baseOnlyCountries.includes(country)) return;
+        try {
+            const response = await fetch('assets/intl.json', { cache: 'no-cache' });
+            if (!response.ok) return;
+            region.data = await response.json();
+            renderRegionContent();
+        } catch (error) {
+            console.warn('Region content unavailable:', error);
+        }
+    }
+
+    function createNode(tag, className, text) {
+        const node = document.createElement(tag);
+        if (className) node.className = className;
+        if (text !== undefined) node.textContent = text;
+        return node;
+    }
+
+    function renderRegionContent() {
+        const data = region.data;
+        if (!data) return;
+
+        const emailList = document.getElementById('contact-emails');
+        const baseEmail = emailList && emailList.querySelector('.contact-email');
+        if (baseEmail && data.email && !emailList.querySelector('[data-region="email"]')) {
+            const link = baseEmail.cloneNode(true);
+            link.href = 'mailto:' + data.email;
+            link.setAttribute('data-region', 'email');
+            link.querySelector('.contact-email-text').textContent = data.email;
+            emailList.insertBefore(link, baseEmail);
+        }
+
+        const slot = document.querySelector('[data-region-slot="employment"]');
+        const extra = data.employment;
+        if (slot && extra) {
+            const strings = extra.i18n[state.currentLang] || extra.i18n['en-US'];
+            slot.textContent = '';
+            slot.appendChild(createNode('div', 'emp-org', strings.name));
+            extra.roles.forEach(role => {
+                const row = createNode('div', 'emp-row');
+                row.appendChild(createNode('span', 'emp-role', strings[role.key]));
+                row.appendChild(createNode('span', 'emp-years', role.years));
+                slot.appendChild(row);
+            });
+            slot.hidden = false;
+        }
+    }
+
     function init() {
         initTheme();
         loadComponents();
+        initRegionContent();
         initializeTranslations();
         
         if (document.readyState === 'loading') {

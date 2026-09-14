@@ -1,8 +1,9 @@
 {
-    "title": "Phó Giáo sư tại Đại học Thanh Hoa",
+    "title": "Giáo sư, Đại học Chiết Giang",
     "nav": {
         "home": "Trang chủ",
         "publications": "Công trình công bố",
+        "teaching": "Giảng dạy",
         "research": "Nghiên cứu",
         "slides": "Slide thuyết trình",
         "team": "Nhóm (Đang tuyển dụng)"
@@ -39,22 +40,27 @@
         "fields": "Kinh tế vi mô ứng dụng, kinh tế quốc tế, kinh tế môi trường, kinh tế chính trị và pháp luật, mạng lưới kinh tế, kinh tế lượng, thị giác máy tính, đồ thị tri thức, GAN."
     },
     "employment": {
-        "tsinghua": {
-            "title": "Phó Giáo sư (chính thức dài hạn), 2023 - hiện nay",
-            "school1": "Viện Nghiên cứu sinh Quốc tế Thâm Quyến, Đại học Thanh Hoa",
-            "school2": "Viện Kinh tế và Quản lý, Đại học Thanh Hoa (kiêm nhiệm)"
+        "zju": {
+            "name": "Đại học Chiết Giang, Trung Quốc",
+            "title": "Giáo sư",
+            "unit": "Khoa Tài chính, Trường Kinh tế"
         },
-        "uq": {
-            "title": "Phó Giáo sư danh dự ngành Kinh tế, 2023-2026",
-            "school": "Đại học Queensland"
+        "tsinghua": {
+            "name": "Đại học Thanh Hoa, Trung Quốc",
+            "title": "Phó Giáo sư",
+            "unit1": "Viện Kinh tế và Quản lý",
+            "unit2": "Viện Nghiên cứu sinh Quốc tế Thâm Quyến",
+            "unit3": "Viện Nghiên cứu Kinh tế và Quản lý Thâm Quyến (kiêm nhiệm)",
+            "deputy": "Phó Giám đốc",
+            "center": "Trung tâm Nghiên cứu Tài chính Tính toán"
         },
         "hku": {
-            "title": "Trợ lý Giáo sư, 2015-2023",
-            "school": "Khoa Kinh doanh, Đại học Hong Kong"
+            "name": "Đại học Hong Kong, Trung Quốc",
+            "title": "Trợ lý Giáo sư, Trường Kinh doanh HKU"
         },
         "suny": {
-            "title": "Giáo sư thỉnh giảng (trong thời gian làm nghiên cứu sinh), 2014",
-            "school": "Đại học Tiểu bang New York"
+            "name": "Đại học Tiểu bang New York, Hoa Kỳ",
+            "title": "Giáo sư kiêm nhiệm, Khoa Tài chính"
         }
     },
     "education": {

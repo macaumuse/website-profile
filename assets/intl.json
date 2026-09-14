@@ -1,0 +1,105 @@
+{
+    "email": "zigan.wang@uq.edu.au",
+    "employment": {
+        "roles": [
+            {
+                "key": "principal",
+                "years": "2026–"
+            },
+            {
+                "key": "senior",
+                "years": "2025–2026"
+            },
+            {
+                "key": "honorary",
+                "years": "2023–2025"
+            }
+        ],
+        "i18n": {
+            "en-US": {
+                "name": "University of Queensland, Australia",
+                "principal": "Principal Research Scientist (casual), Faculty of Business, Economics & Law",
+                "senior": "Senior Research Fellow (part-time), School of Business",
+                "honorary": "Honorary Associate Professor, School of Economics"
+            },
+            "zh-CN": {
+                "name": "昆士兰大学，澳大利亚",
+                "principal": "首席研究科学家（临时聘用），商业、经济与法律学部",
+                "senior": "高级研究员（兼职），商学院",
+                "honorary": "荣誉副教授，经济学院"
+            },
+            "zh-TW": {
+                "name": "昆士蘭大學，澳洲",
+                "principal": "首席研究科學家（臨時聘用），商業、經濟與法律學部",
+                "senior": "高級研究員（兼職），商學院",
+                "honorary": "榮譽副教授，經濟學院"
+            },
+            "ja-JP": {
+                "name": "クイーンズランド大学（オーストラリア）",
+                "principal": "主任研究科学者（非常勤）、ビジネス・経済・法学部",
+                "senior": "上級研究員（パートタイム）、ビジネススクール",
+                "honorary": "名誉准教授、経済学部"
+            },
+            "ko-KR": {
+                "name": "퀸즐랜드 대학교, 호주",
+                "principal": "수석 연구과학자(임시직), 경영·경제·법학부",
+                "senior": "선임 연구원(시간제), 경영대학",
+                "honorary": "명예 부교수, 경제학부"
+            },
+            "ru-RU": {
+                "name": "Квинслендский университет, Австралия",
+                "principal": "Главный научный сотрудник (временная занятость), факультет бизнеса, экономики и права",
+                "senior": "Старший научный сотрудник (неполная занятость), Школа бизнеса",
+                "honorary": "Почётный доцент, Школа экономики"
+            },
+            "ar-SA": {
+                "name": "جامعة كوينزلاند، أستراليا",
+                "principal": "عالم أبحاث رئيسي (بعقد مؤقت)، كلية الأعمال والاقتصاد والقانون",
+                "senior": "زميل بحث أول (بدوام جزئي)، كلية إدارة الأعمال",
+                "honorary": "أستاذ مشارك فخري، كلية الاقتصاد"
+            },
+            "he-IL": {
+                "name": "אוניברסיטת קווינסלנד, אוסטרליה",
+                "principal": "מדען מחקר ראשי (העסקה זמנית), הפקולטה לעסקים, כלכלה ומשפטים",
+                "senior": "עמית מחקר בכיר (משרה חלקית), בית הספר לעסקים",
+                "honorary": "פרופסור חבר לשם כבוד, בית הספר לכלכלה"
+            },
+            "vi-VN": {
+                "name": "Đại học Queensland, Úc",
+                "principal": "Nhà khoa học nghiên cứu chính (hợp đồng thời vụ), Khoa Kinh doanh, Kinh tế và Luật",
+                "senior": "Nghiên cứu viên cao cấp (bán thời gian), Trường Kinh doanh",
+                "honorary": "Phó Giáo sư danh dự, Trường Kinh tế"
+            },
+            "th-TH": {
+                "name": "มหาวิทยาลัยควีนส์แลนด์ ออสเตรเลีย",
+                "principal": "นักวิทยาศาสตร์วิจัยหลัก (สัญญาจ้างชั่วคราว) คณะบริหารธุรกิจ เศรษฐศาสตร์และนิติศาสตร์",
+                "senior": "นักวิจัยอาวุโส (ไม่เต็มเวลา) คณะบริหารธุรกิจ",
+                "honorary": "รองศาสตราจารย์กิตติมศักดิ์ คณะเศรษฐศาสตร์"
+            },
+            "de-DE": {
+                "name": "University of Queensland, Australien",
+                "principal": "Principal Research Scientist (stundenweise), Faculty of Business, Economics & Law",
+                "senior": "Senior Research Fellow (Teilzeit), School of Business",
+                "honorary": "Außerordentlicher Honorarprofessor, School of Economics"
+            },
+            "fr-FR": {
+                "name": "Université du Queensland, Australie",
+                "principal": "Chercheur scientifique principal (contrat occasionnel), Faculté de commerce, d'économie et de droit",
+                "senior": "Chercheur senior (temps partiel), École de commerce",
+                "honorary": "Professeur associé honoraire, École d'économie"
+            },
+            "es-ES": {
+                "name": "Universidad de Queensland, Australia",
+                "principal": "Científico investigador principal (contrato eventual), Facultad de Empresa, Economía y Derecho",
+                "senior": "Investigador sénior (tiempo parcial), Escuela de Negocios",
+                "honorary": "Profesor Asociado Honorario, Escuela de Economía"
+            },
+            "it-IT": {
+                "name": "Università del Queensland, Australia",
+                "principal": "Ricercatore scientifico principale (contratto occasionale), Facoltà di Economia aziendale, Economia e Giurisprudenza",
+                "senior": "Ricercatore senior (part-time), Scuola di Business",
+                "honorary": "Professore Associato Onorario, Scuola di Economia"
+            }
+        }
+    }
+}

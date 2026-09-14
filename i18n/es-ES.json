@@ -1,8 +1,9 @@
 {
-    "title": "Profesor Asociado en la Universidad de Tsinghua",
+    "title": "Catedrático, Universidad de Zhejiang",
     "nav": {
         "home": "Inicio",
         "publications": "Publicaciones",
+        "teaching": "Docencia",
         "research": "Investigación",
         "slides": "Diapositivas",
         "team": "Equipo (Estamos contratando)"
@@ -39,22 +40,27 @@
         "fields": "Microeconomía aplicada, economía internacional, economía ambiental, economía política y del derecho, redes económicas, econometría, visión por computadora, grafos de conocimiento, GAN."
     },
     "employment": {
-        "tsinghua": {
-            "title": "Profesor Asociado (con plaza permanente), 2023 - Actualidad",
-            "school1": "Escuela de Posgrado Internacional de Shenzhen, Universidad de Tsinghua",
-            "school2": "Escuela de Economía y Gestión, Universidad de Tsinghua (Doble nombramiento)"
+        "zju": {
+            "name": "Universidad de Zhejiang, China",
+            "title": "Catedrático",
+            "unit": "Departamento de Finanzas, Escuela de Economía"
         },
-        "uq": {
-            "title": "Profesor Asociado Honorario de Economía, 2023-2026",
-            "school": "Universidad de Queensland"
+        "tsinghua": {
+            "name": "Universidad de Tsinghua, China",
+            "title": "Profesor Asociado",
+            "unit1": "Escuela de Economía y Gestión",
+            "unit2": "Escuela de Posgrado Internacional de Shenzhen",
+            "unit3": "Instituto de Economía y Gestión de Shenzhen (nombramiento adicional)",
+            "deputy": "Subdirector",
+            "center": "Centro de Investigación de Finanzas Computacionales"
         },
         "hku": {
-            "title": "Profesor Titular (Assistant Professor), 2015-2023",
-            "school": "HKU Business School, Universidad de Hong Kong"
+            "name": "Universidad de Hong Kong, China",
+            "title": "Profesor Ayudante (Assistant Professor), HKU Business School"
         },
         "suny": {
-            "title": "Profesor Adjunto (durante el doctorado), 2014",
-            "school": "Universidad Estatal de Nueva York"
+            "name": "Universidad Estatal de Nueva York, EE. UU.",
+            "title": "Profesor Adjunto, Departamento de Finanzas"
         }
     },
     "education": {
