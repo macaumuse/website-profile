@@ -5,7 +5,7 @@
         networkTimeout: 10000,
         retryAttempts: 3,
         retryDelay: 1000,
-        translationsCacheKey: 'translations_cache_v6',
+        translationsCacheKey: 'translations_cache_v7',
         translationsCacheExpiry: 7 * 24 * 60 * 60 * 1000,
         defaultLang: 'en-US',
         rtlLanguages: ['ar-SA', 'he-IL']
@@ -185,7 +185,7 @@
 
     async function loadTranslation(lang) {
         try {
-            const response = await fetchWithRetry(`i18n/${lang}.json?v=20260914d`);
+            const response = await fetchWithRetry(`i18n/${lang}.json?v=20260914e`);
             if (!response.ok) throw new Error(`Failed to load ${lang} translations`);
             return await response.json();
         } catch (error) {
@@ -462,16 +462,10 @@
     // if it cannot be determined, only the base profile is shown.
     const region = {
         baseOnlyCountries: ['CN', 'HK', 'MO', 'TW'],
-        cacheKey: 'visitor_country',
         data: null
     };
 
     async function detectCountry() {
-        try {
-            const cached = sessionStorage.getItem(region.cacheKey);
-            if (cached) return cached;
-        } catch (e) { /* storage unavailable */ }
-
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 4000);
         try {
@@ -479,7 +473,6 @@
             if (!response.ok) return null;
             const match = (await response.text()).match(/^loc=([A-Z]{2})$/m);
             if (!match) return null;
-            try { sessionStorage.setItem(region.cacheKey, match[1]); } catch (e) { /* storage unavailable */ }
             return match[1];
         } catch (error) {
             return null;
@@ -489,10 +482,15 @@
     }
 
     async function initRegionContent() {
+        // Recheck the current connection; an earlier visit's country can be stale.
+        region.data = null;
+        document.querySelectorAll('[data-region="email"]').forEach(node => node.remove());
+        const slot = document.querySelector('[data-region-slot="employment"]');
+        if (slot) { slot.hidden = true; slot.textContent = ''; }
         const country = await detectCountry();
         if (!country || country === 'XX' || country === 'T1' || region.baseOnlyCountries.includes(country)) return;
         try {
-            const response = await fetch('assets/intl.json', { cache: 'no-cache' });
+            const response = await fetch('assets/intl.json?v=20260914e', { cache: 'no-cache' });
             if (!response.ok) return;
             region.data = await response.json();
             renderRegionContent();
@@ -531,7 +529,10 @@
             extra.roles.forEach(role => {
                 const row = createNode('div', 'emp-row');
                 row.appendChild(createNode('span', 'emp-years', role.years));
-                row.appendChild(createNode('div', 'emp-role', strings[role.key]));
+                const details = createNode('div');
+                details.appendChild(createNode('div', 'emp-role', strings[role.key]));
+                details.appendChild(createNode('div', 'emp-unit', strings[role.key + '_unit']));
+                row.appendChild(details);
                 slot.appendChild(row);
             });
             slot.hidden = false;
@@ -552,6 +553,10 @@
     }
 
     init();
+
+    window.addEventListener('pageshow', event => {
+        if (event.persisted) initRegionContent();
+    });
 
     window.changeLanguage = changeLanguage;
     window.setTheme = setTheme;

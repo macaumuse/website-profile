@@ -44,7 +44,7 @@
             "title": "Associate Professor",
             "unit1": "School of Economics and Management",
             "unit2": "Shenzhen International Graduate School",
-            "unit3": "Shenzhen Institute of Economics and Management (by courtesy)",
+            "unit3": "Shenzhen Institute of Economics and Management",
             "deputy": "Deputy Director",
             "center": "Research Center for Computational Finance"
         },
@@ -159,7 +159,7 @@
         "yu": "Yu, Luping (Xiamen University, Assistant Professor, 2021)"
     },
     "layout": {
-        "profile": "Academic profile",
+        "profile": "Academic Profile",
         "rankings": "Ranking abbreviations",
         "skip": "Skip to content",
         "columbia": "Columbia University",

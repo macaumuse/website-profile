@@ -18,87 +18,129 @@
         "i18n": {
             "en-US": {
                 "name": "University of Queensland, Australia",
-                "principal": "Principal Research Scientist (casual), Faculty of Business, Economics & Law",
-                "senior": "Senior Research Fellow (part-time), School of Business",
-                "honorary": "Honorary Associate Professor, School of Economics"
+                "principal": "Principal Research Scientist (casual)",
+                "senior": "Senior Research Fellow (part-time)",
+                "honorary": "Honorary Associate Professor",
+                "principal_unit": "Faculty of Business, Economics & Law",
+                "senior_unit": "School of Business",
+                "honorary_unit": "School of Economics"
             },
             "zh-CN": {
                 "name": "昆士兰大学，澳大利亚",
-                "principal": "首席研究科学家（临时聘用），商业、经济与法律学部",
-                "senior": "高级研究员（兼职），商学院",
-                "honorary": "荣誉副教授，经济学院"
+                "principal": "首席研究科学家（临时聘用）",
+                "senior": "高级研究员（兼职）",
+                "honorary": "荣誉副教授",
+                "principal_unit": "商业、经济与法律学部",
+                "senior_unit": "商学院",
+                "honorary_unit": "经济学院"
             },
             "zh-TW": {
                 "name": "昆士蘭大學，澳洲",
-                "principal": "首席研究科學家（臨時聘用），商業、經濟與法律學部",
-                "senior": "高級研究員（兼職），商學院",
-                "honorary": "榮譽副教授，經濟學院"
+                "principal": "首席研究科學家（臨時聘用）",
+                "senior": "高級研究員（兼職）",
+                "honorary": "榮譽副教授",
+                "principal_unit": "商業、經濟與法律學部",
+                "senior_unit": "商學院",
+                "honorary_unit": "經濟學院"
             },
             "ja-JP": {
                 "name": "クイーンズランド大学（オーストラリア）",
-                "principal": "主任研究科学者（非常勤）、ビジネス・経済・法学部",
-                "senior": "上級研究員（パートタイム）、ビジネススクール",
-                "honorary": "名誉准教授、経済学部"
+                "principal": "主任研究科学者（非常勤）",
+                "senior": "上級研究員（パートタイム）",
+                "honorary": "名誉准教授",
+                "principal_unit": "ビジネス・経済・法学部",
+                "senior_unit": "ビジネススクール",
+                "honorary_unit": "経済学部"
             },
             "ko-KR": {
                 "name": "퀸즐랜드 대학교, 호주",
-                "principal": "수석 연구과학자(임시직), 경영·경제·법학부",
-                "senior": "선임 연구원(시간제), 경영대학",
-                "honorary": "명예 부교수, 경제학부"
+                "principal": "수석 연구과학자(임시직)",
+                "senior": "선임 연구원(시간제)",
+                "honorary": "명예 부교수",
+                "principal_unit": "경영·경제·법학부",
+                "senior_unit": "경영대학",
+                "honorary_unit": "경제학부"
             },
             "ru-RU": {
                 "name": "Квинслендский университет, Австралия",
-                "principal": "Главный научный сотрудник (временная занятость), факультет бизнеса, экономики и права",
-                "senior": "Старший научный сотрудник (неполная занятость), Школа бизнеса",
-                "honorary": "Почётный доцент, Школа экономики"
+                "principal": "Главный научный сотрудник (временная занятость)",
+                "senior": "Старший научный сотрудник (неполная занятость)",
+                "honorary": "Почётный доцент",
+                "principal_unit": "факультет бизнеса, экономики и права",
+                "senior_unit": "Школа бизнеса",
+                "honorary_unit": "Школа экономики"
             },
             "ar-SA": {
                 "name": "جامعة كوينزلاند، أستراليا",
-                "principal": "عالم أبحاث رئيسي (بعقد مؤقت)، كلية الأعمال والاقتصاد والقانون",
-                "senior": "زميل بحث أول (بدوام جزئي)، كلية إدارة الأعمال",
-                "honorary": "أستاذ مشارك فخري، كلية الاقتصاد"
+                "principal": "عالم أبحاث رئيسي (بعقد مؤقت)",
+                "senior": "زميل بحث أول (بدوام جزئي)",
+                "honorary": "أستاذ مشارك فخري",
+                "principal_unit": "كلية الأعمال والاقتصاد والقانون",
+                "senior_unit": "كلية إدارة الأعمال",
+                "honorary_unit": "كلية الاقتصاد"
             },
             "he-IL": {
                 "name": "אוניברסיטת קווינסלנד, אוסטרליה",
-                "principal": "מדען מחקר ראשי (העסקה זמנית), הפקולטה לעסקים, כלכלה ומשפטים",
-                "senior": "עמית מחקר בכיר (משרה חלקית), בית הספר לעסקים",
-                "honorary": "פרופסור חבר לשם כבוד, בית הספר לכלכלה"
+                "principal": "מדען מחקר ראשי (העסקה זמנית)",
+                "senior": "עמית מחקר בכיר (משרה חלקית)",
+                "honorary": "פרופסור חבר לשם כבוד",
+                "principal_unit": "הפקולטה לעסקים, כלכלה ומשפטים",
+                "senior_unit": "בית הספר לעסקים",
+                "honorary_unit": "בית הספר לכלכלה"
             },
             "vi-VN": {
                 "name": "Đại học Queensland, Úc",
-                "principal": "Nhà khoa học nghiên cứu chính (hợp đồng thời vụ), Khoa Kinh doanh, Kinh tế và Luật",
-                "senior": "Nghiên cứu viên cao cấp (bán thời gian), Trường Kinh doanh",
-                "honorary": "Phó Giáo sư danh dự, Trường Kinh tế"
+                "principal": "Nhà khoa học nghiên cứu chính (hợp đồng thời vụ)",
+                "senior": "Nghiên cứu viên cao cấp (bán thời gian)",
+                "honorary": "Phó Giáo sư danh dự",
+                "principal_unit": "Khoa Kinh doanh, Kinh tế và Luật",
+                "senior_unit": "Trường Kinh doanh",
+                "honorary_unit": "Trường Kinh tế"
             },
             "th-TH": {
                 "name": "มหาวิทยาลัยควีนส์แลนด์ ออสเตรเลีย",
-                "principal": "นักวิทยาศาสตร์วิจัยหลัก (สัญญาจ้างชั่วคราว) คณะบริหารธุรกิจ เศรษฐศาสตร์และนิติศาสตร์",
-                "senior": "นักวิจัยอาวุโส (ไม่เต็มเวลา) คณะบริหารธุรกิจ",
-                "honorary": "รองศาสตราจารย์กิตติมศักดิ์ คณะเศรษฐศาสตร์"
+                "principal": "นักวิทยาศาสตร์วิจัยหลัก (สัญญาจ้างชั่วคราว)",
+                "senior": "นักวิจัยอาวุโส (ไม่เต็มเวลา)",
+                "honorary": "รองศาสตราจารย์กิตติมศักดิ์",
+                "principal_unit": "คณะบริหารธุรกิจ เศรษฐศาสตร์และนิติศาสตร์",
+                "senior_unit": "คณะบริหารธุรกิจ",
+                "honorary_unit": "คณะเศรษฐศาสตร์"
             },
             "de-DE": {
                 "name": "University of Queensland, Australien",
-                "principal": "Principal Research Scientist (stundenweise), Faculty of Business, Economics & Law",
-                "senior": "Senior Research Fellow (Teilzeit), School of Business",
-                "honorary": "Außerordentlicher Honorarprofessor, School of Economics"
+                "principal": "Principal Research Scientist (stundenweise)",
+                "senior": "Senior Research Fellow (Teilzeit)",
+                "honorary": "Außerordentlicher Honorarprofessor",
+                "principal_unit": "Faculty of Business, Economics & Law",
+                "senior_unit": "School of Business",
+                "honorary_unit": "School of Economics"
             },
             "fr-FR": {
                 "name": "Université du Queensland, Australie",
-                "principal": "Chercheur scientifique principal (contrat occasionnel), Faculté de commerce, d'économie et de droit",
-                "senior": "Chercheur senior (temps partiel), École de commerce",
-                "honorary": "Professeur associé honoraire, École d'économie"
+                "principal": "Chercheur scientifique principal (contrat occasionnel)",
+                "senior": "Chercheur senior (temps partiel)",
+                "honorary": "Professeur associé honoraire",
+                "principal_unit": "Faculté de commerce, d'économie et de droit",
+                "senior_unit": "École de commerce",
+                "honorary_unit": "École d'économie"
             },
             "es-ES": {
                 "name": "Universidad de Queensland, Australia",
-                "principal": "Científico investigador principal (contrato eventual), Facultad de Empresa, Economía y Derecho",
-                "senior": "Investigador sénior (tiempo parcial), Escuela de Negocios",
-                "honorary": "Profesor Asociado Honorario, Escuela de Economía"
+                "principal": "Científico investigador principal (contrato eventual)",
+                "senior": "Investigador sénior (tiempo parcial)",
+                "honorary": "Profesor Asociado Honorario",
+                "principal_unit": "Facultad de Empresa, Economía y Derecho",
+                "senior_unit": "Escuela de Negocios",
+                "honorary_unit": "Escuela de Economía"
             },
             "it-IT": {
                 "name": "Università del Queensland, Australia",
-                "principal": "Ricercatore scientifico principale (contratto occasionale), Facoltà di Economia aziendale, Economia e Giurisprudenza",
-                "senior": "Ricercatore senior (part-time), Scuola di Business",
-                "honorary": "Professore Associato Onorario, Scuola di Economia"
+                "principal": "Ricercatore scientifico principale (contratto occasionale)",
+                "senior": "Ricercatore senior (part-time)",
+                "honorary": "Professore Associato Onorario",
+                "principal_unit": "Facoltà di Economia aziendale, Economia e Giurisprudenza",
+                "senior_unit": "Scuola di Business",
+                "honorary_unit": "Scuola di Economia"
             }
         }
     }
