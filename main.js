@@ -89,7 +89,7 @@
             <button type="button" class="profile-photo" aria-label="Show alternate portrait" aria-pressed="false"><img src="assets/avatar-restored.webp" alt="Zigan Wang" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="eager" fetchpriority="high" width="192" height="192" data-original="assets/avatar-restored.webp" data-hover="assets/smile-restored.webp"></button>
             <div class="space-y-4">
                 <div id="contact-emails" class="space-y-2">
-                    <a href="mailto:wangzigan@zju.edu.cn" class="contact-email text-primary dark:text-blue-400 hover:underline flex items-center text-sm">
+                    <a href="mailto:wangzigan@zju.edu.cn" class="contact-email text-primary dark:text-blue-400 hover:underline flex items-center text-sm" data-region-profile="zju" hidden>
                         <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/>
                         </svg>
@@ -457,13 +457,13 @@
     }
 
     // ---------- Region-specific profile content ----------
-    // Some profile details are shown only to visitors outside mainland China, Hong Kong,
-    // Macau and Taiwan, and are fetched from assets/intl.json only for those visitors.
+    // Some profile details are shown only to visitors outside mainland China, Hong Kong
+    // and Macau, and are fetched from assets/intl.json only for those visitors.
     // The visitor's country comes from Cloudflare's /cdn-cgi/trace on this domain;
-    // The ZJU appointment is hidden for AU and while the country is unknown.
+    // The ZJU appointment and email are hidden for AU and while the country is unknown.
     // These rules control presentation, not access to the public static assets.
     const region = {
-        baseOnlyCountries: ['CN', 'HK', 'MO', 'TW'],
+        baseOnlyCountries: ['CN', 'HK', 'MO'],
         data: null,
         country: null,
         requestId: 0
@@ -540,9 +540,11 @@
         if (!data) return;
 
         const emailList = document.getElementById('contact-emails');
-        const baseEmail = emailList && emailList.querySelector('.contact-email');
+        const baseEmail = emailList && emailList.querySelector('[data-region-profile="zju"]');
         if (baseEmail && data.email && !emailList.querySelector('[data-region="email"]')) {
             const link = baseEmail.cloneNode(true);
+            link.removeAttribute('data-region-profile');
+            link.hidden = false;
             link.href = 'mailto:' + data.email;
             link.setAttribute('data-region', 'email');
             link.querySelector('.contact-email-text').textContent = data.email;
