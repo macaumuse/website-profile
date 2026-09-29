@@ -45,7 +45,8 @@
                     <p class="site-name text-3xl font-bold text-primary-dark dark:text-gray-100 mb-1">
                         <a href="index.html" class="hover:underline">Zigan Wang</a>
                     </p>
-                    <p class="text-gray-700 dark:text-gray-300" data-i18n="title">Professor, Zhejiang University</p>
+                    <p class="text-gray-700 dark:text-gray-300" data-i18n="title" data-region-profile="zju" hidden>Professor, Zhejiang University</p>
+                    <p class="text-gray-700 dark:text-gray-300" data-i18n="layout.profile" data-region-fallback="zju">Academic Profile</p>
                 </div>
                 <nav aria-label="Main navigation" class="flex flex-wrap items-center gap-2 text-sm">
                     <a href="index.html" class="text-primary dark:text-blue-400 hover:underline font-medium" data-i18n="nav.home">Home</a>
@@ -85,7 +86,7 @@
         sidebar: `
         <aside class="site-sidebar w-full md:w-80 lg:w-96 bg-gray-50 dark:bg-gray-800 p-6 md:border-r border-gray-300 dark:border-gray-700">
             <div class="sidebar-sticky">
-            <button type="button" class="profile-photo" aria-label="Show alternate portrait" aria-pressed="false"><img src="assets/avatar-restored.webp" alt="Zigan Wang - Professor, Zhejiang University" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="eager" fetchpriority="high" width="192" height="192" data-original="assets/avatar-restored.webp" data-hover="assets/smile-restored.webp"></button>
+            <button type="button" class="profile-photo" aria-label="Show alternate portrait" aria-pressed="false"><img src="assets/avatar-restored.webp" alt="Zigan Wang" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="eager" fetchpriority="high" width="192" height="192" data-original="assets/avatar-restored.webp" data-hover="assets/smile-restored.webp"></button>
             <div class="space-y-4">
                 <div id="contact-emails" class="space-y-2">
                     <a href="mailto:wangzigan@zju.edu.cn" class="contact-email text-primary dark:text-blue-400 hover:underline flex items-center text-sm">
@@ -459,10 +460,13 @@
     // Some profile details are shown only to visitors outside mainland China, Hong Kong,
     // Macau and Taiwan, and are fetched from assets/intl.json only for those visitors.
     // The visitor's country comes from Cloudflare's /cdn-cgi/trace on this domain;
-    // if it cannot be determined, only the base profile is shown.
+    // The ZJU appointment is hidden for AU and while the country is unknown.
+    // These rules control presentation, not access to the public static assets.
     const region = {
         baseOnlyCountries: ['CN', 'HK', 'MO', 'TW'],
-        data: null
+        data: null,
+        country: null,
+        requestId: 0
     };
 
     async function detectCountry() {
@@ -481,18 +485,42 @@
         }
     }
 
-    async function initRegionContent() {
-        // Recheck the current connection; an earlier visit's country can be stale.
+    function renderRegionProfile() {
+        const showZju = Boolean(region.country) && region.country !== 'AU';
+        document.querySelectorAll('[data-region-profile="zju"]').forEach(node => {
+            node.hidden = !showZju;
+        });
+        document.querySelectorAll('[data-region-fallback="zju"]').forEach(node => {
+            node.hidden = showZju;
+        });
+    }
+
+    function resetRegionContent() {
+        region.requestId += 1;
+        region.country = null;
         region.data = null;
         document.querySelectorAll('[data-region="email"]').forEach(node => node.remove());
         const slot = document.querySelector('[data-region-slot="employment"]');
         if (slot) { slot.hidden = true; slot.textContent = ''; }
+        renderRegionProfile();
+        return region.requestId;
+    }
+
+    async function initRegionContent() {
+        // Recheck the current connection; an earlier visit's country can be stale.
+        const requestId = resetRegionContent();
         const country = await detectCountry();
-        if (!country || country === 'XX' || country === 'T1' || region.baseOnlyCountries.includes(country)) return;
+        if (requestId !== region.requestId) return;
+        if (!country || country === 'XX' || country === 'T1') return;
+        region.country = country;
+        renderRegionProfile();
+        if (region.baseOnlyCountries.includes(country)) return;
         try {
             const response = await fetch('assets/intl.json?v=20260914e', { cache: 'no-cache' });
             if (!response.ok) return;
-            region.data = await response.json();
+            const data = await response.json();
+            if (requestId !== region.requestId) return;
+            region.data = data;
             renderRegionContent();
         } catch (error) {
             console.warn('Region content unavailable:', error);
@@ -507,6 +535,7 @@
     }
 
     function renderRegionContent() {
+        renderRegionProfile();
         const data = region.data;
         if (!data) return;
 
@@ -557,6 +586,8 @@
     window.addEventListener('pageshow', event => {
         if (event.persisted) initRegionContent();
     });
+    // Do not retain a previous connection's appointments in the back/forward cache.
+    window.addEventListener('pagehide', resetRegionContent);
 
     window.changeLanguage = changeLanguage;
     window.setTheme = setTheme;

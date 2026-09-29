@@ -1,3 +1,6 @@
+/* Keep regional content hidden during geolocation, including in print. */
+[data-region-profile][hidden], [data-region-fallback][hidden] { display: none !important; }
+
 /* Shared academic layout. Component selectors keep the utility sheet reusable. */
 :root {
   --page: #f3f6f8;
