@@ -86,7 +86,7 @@
         sidebar: `
         <aside class="site-sidebar w-full md:w-80 lg:w-96 bg-gray-50 dark:bg-gray-800 p-6 md:border-r border-gray-300 dark:border-gray-700">
             <div class="sidebar-sticky">
-            <button type="button" class="profile-photo" aria-label="Show alternate portrait" aria-pressed="false"><img src="assets/avatar-restored.webp" alt="Zigan Wang" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="eager" fetchpriority="high" width="192" height="192" data-original="assets/avatar-restored.webp" data-hover="assets/smile-restored.webp"></button>
+            <div class="profile-photo"><img src="assets/avatar-updated.webp" alt="Zigan Wang" class="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300 object-cover avatar-image" loading="eager" fetchpriority="high" width="192" height="192"></div>
             <div class="space-y-4">
                 <div id="contact-emails" class="space-y-2">
                     <a href="mailto:wangzigan@zju.edu.cn" class="contact-email text-primary dark:text-blue-400 hover:underline flex items-center text-sm" data-region-profile="zju" hidden>
@@ -363,27 +363,6 @@
             }
         });
         
-        const avatarImage = document.querySelector('.avatar-image');
-        const photoButton = document.querySelector('.profile-photo');
-        if (avatarImage && photoButton && !avatarImage.dataset.initialized) {
-            const originalSrc = avatarImage.dataset.original;
-            const hoverSrc = avatarImage.dataset.hover;
-            let selected = false;
-            const alternate = new Image();
-            alternate.src = hoverSrc;
-            photoButton.addEventListener('pointerenter', e => {
-                if (e.pointerType === 'mouse') avatarImage.src = hoverSrc;
-            });
-            photoButton.addEventListener('pointerleave', () => {
-                avatarImage.src = selected ? hoverSrc : originalSrc;
-            });
-            photoButton.addEventListener('click', () => {
-                selected = !selected;
-                photoButton.setAttribute('aria-pressed', String(selected));
-                avatarImage.src = selected ? hoverSrc : originalSrc;
-            });
-            avatarImage.dataset.initialized = 'true';
-        }
     }
 
     async function changeLanguage(lang) {

@@ -46,7 +46,7 @@ body .site-shell { max-width: 1200px; margin-inline: auto; background: var(--sur
 .site-shell .site-sidebar { width: auto; height: 100%; padding: 46px 26px 40px 36px; border: 0; background: var(--surface); }
 .sidebar-sticky { position: sticky; top: 28px; }
 .site-sidebar .avatar-image { width: 192px; height: 192px; margin: 0 0 24px; border-radius: 6px; box-shadow: none; transform: none; object-fit: cover; }
-.profile-photo { display: block; max-width: 192px; border-radius: 6px; cursor: pointer; }
+.profile-photo { display: block; max-width: 192px; border-radius: 6px; }
 .profile-photo .avatar-image { margin-bottom: 0; }
 .profile-photo { margin-bottom: 24px; }
 .contact-email { gap: 7px; font-size: 13px; line-height: 1.55; color: var(--accent); }
