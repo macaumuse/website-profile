@@ -5,7 +5,7 @@
         networkTimeout: 10000,
         retryAttempts: 3,
         retryDelay: 1000,
-        translationsCacheKey: 'translations_cache_v7',
+        translationsCacheKey: 'translations_cache_v8',
         translationsCacheExpiry: 7 * 24 * 60 * 60 * 1000,
         defaultLang: 'en-US',
         rtlLanguages: ['ar-SA', 'he-IL']

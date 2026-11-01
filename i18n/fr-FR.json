@@ -36,12 +36,12 @@
     "employment": {
         "zju": {
             "name": "Université du Zhejiang, Chine",
-            "title": "Professeur",
+            "title": "Professeur (titulaire)",
             "unit": "Département de finance, École d'économie"
         },
         "tsinghua": {
             "name": "Université Tsinghua, Chine",
-            "title": "Professeur associé",
+            "title": "Professeur associé (titulaire)",
             "unit1": "École d'économie et de gestion",
             "unit2": "École supérieure internationale de Shenzhen",
             "unit3": "Institut d'économie et de gestion de Shenzhen",
